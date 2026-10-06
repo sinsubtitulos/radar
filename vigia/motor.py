@@ -11,6 +11,7 @@ from datetime import datetime, timezone, timedelta
 from .extraer import clave, norm
 from .http import Bloqueada, Http
 from .lectores import leer, leer_render
+from . import ubicacion as ub
 
 BOGOTA = timezone(timedelta(hours=-5))
 
@@ -39,12 +40,16 @@ def _patrones(lista):
     return [norm(x) for x in (lista or []) if str(x).strip()]
 
 
-def clasificar(v: dict, perfil: dict) -> dict:
+def clasificar(v: dict, perfil: dict, org: dict | None = None, reglas=None) -> dict:
     txt = norm(f"{v.get('titulo', '')} {v.get('lugar', '')}")
     inc = [str(x).strip() for x in (perfil.get("palabras_clave") or []) if str(x).strip()]
     exc = _patrones(perfil.get("excluir"))
     v["coincide"] = [p for p in inc if re.search(r"\b" + re.escape(norm(p)) + r"\b", txt)]
     v["excluida"] = any(re.search(r"\b" + re.escape(p) + r"\b", txt) for p in exc)
+    if reglas is not None:
+        v["ubicacion"] = ub.clasificar(v, org or {}, reglas)
+        v["fuera"] = not ub.permitida(v["ubicacion"], reglas)
+    v.pop("contexto", None)  # solo se usa para leer el lugar; no se guarda
     return v
 
 
@@ -53,6 +58,7 @@ def correr(cfg: dict, orgs: list[dict], ruta_estado: str, log=print) -> dict:
     estado = cargar_json(ruta_estado, {"orgs": {}, "corridas": []})
     http = Http(cfg)
     perfil = cfg.get("perfil", {})
+    reglas = ub.construir(cfg)
 
     if not cfg.get("incluir_agregadores", True):
         orgs = [o for o in orgs if o.get("t") != "Agregador"]
@@ -91,11 +97,14 @@ def correr(cfg: dict, orgs: list[dict], ruta_estado: str, log=print) -> dict:
 
     # ── comparar con la corrida anterior ────────────────────────────────────
     resumen = {"fecha": hoy, "revisadas": 0, "ok": 0, "errores": 0, "omitidas": 0, "bloqueadas": 0,
-               "nuevas": 0, "nuevas_coinciden": 0, "cerradas": 0, "linea_base": 0, "paginas_modificadas": 0}
+               "nuevas": 0, "nuevas_coinciden": 0, "fuera_ubicacion": 0, "cerradas": 0, "linea_base": 0, "paginas_modificadas": 0}
     for oid, res in resultados.items():
         prev = estado["orgs"].get(oid)
         e = prev or {"vacantes": {}}
-        primera = not e.get("base_ok")  # primera lectura exitosa: todo queda como línea base
+        # primera lectura exitosa, o cambió la forma de leer la página (p. ej. se activó render_js):
+        # lo que aparezca queda como línea base y no se reporta como nuevo
+        primera = not e.get("base_ok") or (res.get("metodo") and e.get("metodo_base") not in (None, res.get("metodo")))
+        e["metodo_base"] = res.get("metodo") or e.get("metodo_base")
         e.update({"ultima_revision": hoy, "estado": res["estado"], "nota": res.get("nota", ""),
                   "metodo": res.get("metodo", e.get("metodo", "")), "requiere_js": bool(res.get("requiere_js"))})
         resumen["revisadas"] += 1
@@ -120,12 +129,12 @@ def correr(cfg: dict, orgs: list[dict], ruta_estado: str, log=print) -> dict:
 
         actuales = {}
         for v in res.get("vacantes", []):
-            v = clasificar(dict(v), perfil)
+            v = clasificar(dict(v), perfil, por_id.get(oid), reglas)
             actuales[clave(v)] = v
         for k, v in actuales.items():
             if k in e["vacantes"]:
                 old = e["vacantes"][k]
-                old.update({k2: v[k2] for k2 in ("titulo", "url", "lugar", "fecha", "coincide", "excluida") if v.get(k2) is not None})
+                old.update({k2: v[k2] for k2 in ("titulo", "url", "lugar", "fecha", "coincide", "excluida", "ubicacion", "fuera") if v.get(k2) is not None})
                 old["ultima_vez"] = hoy
                 old.pop("cerrada", None)
             else:
@@ -133,6 +142,8 @@ def correr(cfg: dict, orgs: list[dict], ruta_estado: str, log=print) -> dict:
                 e["vacantes"][k] = v
                 if primera:
                     resumen["linea_base"] += 1
+                elif v.get("fuera"):
+                    resumen["fuera_ubicacion"] += 1
                 elif not v["excluida"]:
                     resumen["nuevas"] += 1
                     if v["coincide"]:

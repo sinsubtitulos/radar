@@ -24,7 +24,8 @@ La memoria del sistema queda en `datos/estado.json`. No lo borres: es lo que per
    - **Páginas propias** (la mayoría): busca enlaces cuyo texto parezca un cargo o convocatoria (coordinador, oficial, consultoría, términos de referencia, vacante…) y descarta menús, noticias y redes sociales.
    - Además guarda una «huella» de cada página. Si la página cambió pero no publica cada vacante como enlace (por ejemplo, convocatorias en PDF o en texto), aparece en **«Páginas que cambiaron»**.
 3. Compara con la corrida anterior. Lo que no estaba es **nuevo**; lo que ya no aparece queda **cerrado**.
-4. Marca las nuevas que contienen las palabras del perfil (`config.yaml`) y oculta las que contienen palabras excluidas (por ejemplo, «pasantía»).
+4. **Filtra por ubicación:** solo reporta como nuevas las vacantes en **Colombia o remotas**. Lee el lugar que publica la plataforma, el título y el texto junto al enlace. Si no dice dónde es, la asume en Colombia solo cuando la organización es colombiana (Red AFE, sitios .co o páginas de vacantes de oficinas en Colombia). Las demás se descartan y se cuentan en el reporte. Se ajusta en `config.yaml`, sección `ubicacion`.
+5. Marca las nuevas que contienen las palabras del perfil (`config.yaml`) y oculta las que contienen palabras excluidas (por ejemplo, «pasantía»).
 
 **No se rastrean:** LinkedIn, WhatsApp, Facebook e Instagram (exigen inicio de sesión y sus condiciones lo prohíben), ni las 82 organizaciones sin página de vacantes. Aparecen en el reporte como «para revisar manualmente».
 

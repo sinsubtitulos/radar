@@ -82,11 +82,12 @@ escena(1); e1 = motor.correr(CFG, ORGS, est, log=lambda *a: None); o1 = reportes
 print("\n== Corrida 1 ==", {k: e1["corridas"][-1][k] for k in ("ok", "errores", "omitidas", "linea_base", "nuevas")})
 escena(2); e2 = motor.correr(CFG, ORGS, est, log=lambda *a: None); o2 = reportes.generar(e2, ORGS, tmp, CFG)
 r = e2["corridas"][-1]
-print("== Corrida 2 ==", {k: r[k] for k in ("ok", "errores", "nuevas", "nuevas_coinciden", "cerradas", "paginas_modificadas")})
+print("== Corrida 2 ==", {k: r[k] for k in ("ok", "errores", "nuevas", "nuevas_coinciden", "fuera_ubicacion", "cerradas", "paginas_modificadas")})
 for o, v in o2["nuevas"]: print("   NUEVA:", o["n"], "|", v["titulo"], "| coincide:", v["coincide"])
 for oid, e in e2["orgs"].items(): print(f"   {oid:12} {e['estado']:9} {e.get('metodo',''):10} js={e.get('requiere_js')} nota={e.get('nota','')[:60]}")
 
-assert r["nuevas"] == 3, r                       # ESG, Data Analyst, Coordinadora regional (pasante excluida)
+assert r["nuevas"] == 2, r                       # ESG (org. colombiana) y Coordinadora regional remota
+assert r["fuera_ubicacion"] == 1, r              # Data Analyst en Nairobi
 assert r["nuevas_coinciden"] == 2, r
 assert r["cerradas"] == 1, r                     # Country Director
 assert r["paginas_modificadas"] >= 1, r          # Fundación B cambió sin enlaces

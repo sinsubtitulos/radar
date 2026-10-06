@@ -15,12 +15,12 @@ E = html.escape
 def _nuevas_de(estado, oid, desde: str):
     o = estado["orgs"].get(oid, {})
     return [v for v in o.get("vacantes", {}).values()
-            if v.get("primera_vez", "") >= desde and not v.get("linea_base") and not v.get("excluida") and not v.get("cerrada")]
+            if v.get("primera_vez", "") >= desde and not v.get("linea_base") and not v.get("excluida") and not v.get("cerrada") and not v.get("fuera")]
 
 
 def _activas_de(estado, oid):
     o = estado["orgs"].get(oid, {})
-    return [v for v in o.get("vacantes", {}).values() if not v.get("cerrada") and not v.get("excluida")]
+    return [v for v in o.get("vacantes", {}).values() if not v.get("cerrada") and not v.get("excluida") and not v.get("fuera")]
 
 
 def generar(estado: dict, orgs: list[dict], carpeta: str, cfg: dict):
@@ -40,12 +40,13 @@ def generar(estado: dict, orgs: list[dict], carpeta: str, cfg: dict):
             nuevas.append((por_id[oid], v))
     nuevas.sort(key=lambda x: (not x[1].get("coincide"), x[0]["n"].lower(), x[1]["titulo"].lower()))
 
-    campos = ["Fecha detección", "Organización", "Categoría", "Red AFE", "Vacante", "Lugar", "Fecha publicada",
-              "Coincide con perfil", "Enlace"]
+    campos = ["Fecha detección", "Organización", "Categoría", "Red AFE", "Vacante", "Ubicación", "Lugar publicado",
+              "Fecha publicada", "Coincide con perfil", "Enlace"]
+    UBIC = {"colombia": "Colombia", "remoto": "Remoto", "colombia_supuesta": "Colombia (organización colombiana)"}
 
     def fila(o, v):
         return [v.get("primera_vez", ""), o["n"], o.get("t", ""), "Sí" if o.get("afe") else "", v.get("titulo", ""),
-                v.get("lugar", ""), v.get("fecha", ""), ", ".join(v.get("coincide") or []), v.get("url", "")]
+                UBIC.get(v.get("ubicacion", ""), ""), v.get("lugar", ""), v.get("fecha", ""), ", ".join(v.get("coincide") or []), v.get("url", "")]
 
     def escribir_csv(ruta, filas, modo="w"):
         nuevo = modo == "w" or not os.path.exists(ruta)
@@ -72,9 +73,9 @@ def generar(estado: dict, orgs: list[dict], carpeta: str, cfg: dict):
         radar["orgs"][oid] = {
             "estado": e.get("estado"), "revision": e.get("ultima_revision"), "nota": e.get("nota", ""),
             "activas": len(act), "pagina_cambio": e.get("huella_cambio", "") >= desde_semana if e.get("huella_cambio") else False,
-            "nuevas": [{"t": v["titulo"], "u": v.get("url", ""), "l": v.get("lugar", ""), "f": v.get("primera_vez", "")[:10],
+            "nuevas": [{"t": v["titulo"], "u": v.get("url", ""), "l": v.get("lugar", "") or UBIC.get(v.get("ubicacion", ""), ""), "f": v.get("primera_vez", "")[:10],
                         "c": v.get("coincide") or []} for v in sorted(nv, key=lambda v: v.get("primera_vez", ""), reverse=True)][:30],
-            "lista": [{"t": v["titulo"], "u": v.get("url", ""), "l": v.get("lugar", "")} for v in act][:40],
+            "lista": [{"t": v["titulo"], "u": v.get("url", ""), "l": v.get("lugar", "") or UBIC.get(v.get("ubicacion", ""), "")} for v in act][:40],
         }
     guardar_json(os.path.join(carpeta, "radar_vacantes.json"), radar)
 
@@ -101,7 +102,7 @@ def generar(estado: dict, orgs: list[dict], carpeta: str, cfg: dict):
         items = "".join(
             f'<li class="vac{" match" if v.get("coincide") else ""}" data-q="{E((v["titulo"] + " " + o["n"]).lower())}">'
             f'<a href="{E(v.get("url", ""))}" target="_blank" rel="noopener">{E(v["titulo"])}</a>'
-            f'<div class="meta">{E(v.get("lugar", ""))}{" · " if v.get("lugar") and v.get("fecha") else ""}{E(v.get("fecha", ""))}'
+            f'<div class="meta">{chip(UBIC.get(v.get("ubicacion", ""), ""), "loc") if v.get("ubicacion") else ""}{E(v.get("lugar", ""))}{" · " if v.get("lugar") and v.get("fecha") else ""}{E(v.get("fecha", ""))}'
             f'{"".join(chip(c, "ok") for c in (v.get("coincide") or []))}</div></li>' for v in vs)
         bloques.append(
             f'<section class="org{" has-match" if coinc else ""}"><div class="org-h"><h3>{E(o["n"])}</h3>'
@@ -146,7 +147,7 @@ h2{{font:400 1.45rem 'DM Serif Display',serif;margin:2.25rem 0 .9rem}}h3{{font:4
 .vac{{padding:.55rem 0;border-top:1px solid var(--b)}}.vac:first-child{{border-top:none}}.vac a{{color:var(--ink);font-weight:500;text-decoration:none}}.vac a:hover{{text-decoration:underline}}
 .vac.match a{{color:var(--g)}}.meta{{font-size:12.5px;color:var(--mut);display:flex;gap:.35rem;flex-wrap:wrap;align-items:center;margin-top:.15rem}}
 .chip{{display:inline-flex;font-size:11px;font-weight:500;padding:.08rem .55rem;border-radius:20px;background:var(--s2);border:1px solid var(--b);color:var(--mut)}}
-.chip.ok{{background:var(--gb);color:var(--g);border-color:rgba(42,99,72,.2)}}.chip.afe{{background:var(--pb);color:var(--p);border-color:rgba(92,61,143,.25)}}
+.chip.ok{{background:var(--gb);color:var(--g);border-color:rgba(42,99,72,.2)}}.chip.loc{{background:var(--ab);color:var(--a);border-color:rgba(140,90,24,.25)}}.chip.afe{{background:var(--pb);color:var(--p);border-color:rgba(92,61,143,.25)}}
 table{{width:100%;border-collapse:collapse;background:var(--s);border:1px solid var(--b);border-radius:14px;overflow:hidden;font-size:13.5px}}
 th{{text-align:left;font-size:11px;letter-spacing:.07em;text-transform:uppercase;color:var(--mut);background:var(--s2);padding:.65rem .8rem}}td{{padding:.6rem .8rem;border-top:1px solid var(--b);vertical-align:top}}
 td a{{color:var(--ink)}}details{{margin-top:.5rem}}summary{{cursor:pointer;color:var(--mut);font-size:14px}}
@@ -155,11 +156,11 @@ td a{{color:var(--ink)}}details{{margin-top:.5rem}}summary{{cursor:pointer;color
 @media(max-width:720px){{.kpis{{grid-template-columns:repeat(2,1fr)}}.cols{{columns:1}}.org-h .src{{margin-left:0}}}}
 </style></head><body><div class="wrap">
 <h1>Vigía de vacantes <em>· Radar Progresso</em></h1>
-<p class="sub">Corrida del {E(hoy)} (hora de Bogotá) · Perfil: {E(kws)}</p>
+<p class="sub">Corrida del {E(hoy)} (hora de Bogotá) · Solo vacantes en <b>Colombia o remotas</b> · Perfil: {E(kws)}</p>
 <div class="kpis">
 <div class="kpi hi"><b>{res["nuevas_coinciden"]}</b><span>Nuevas que coinciden con el perfil</span></div>
 <div class="kpi"><b>{res["nuevas"]}</b><span>Vacantes nuevas en total</span></div>
-<div class="kpi"><b>{res["ok"]}</b><span>Páginas leídas de {res["revisadas"]}</span></div>
+<div class="kpi"><b>{res.get("fuera_ubicacion", 0)}</b><span>Nuevas descartadas por estar fuera de Colombia o sin ubicación</span></div>
 <div class="kpi"><b>{res["paginas_modificadas"]}</b><span>Páginas que cambiaron</span></div>
 <div class="kpi"><b>{res["errores"] + res["bloqueadas"]}</b><span>Con error o bloqueadas</span></div>
 </div>{base_msg}

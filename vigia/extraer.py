@@ -114,7 +114,7 @@ def extraer_enlaces(html: str, url_base: str) -> list[dict]:
         if url in vistos:
             continue
         vistos.add(url)
-        out.append({"titulo": titulo[:200], "url": url})
+        out.append({"titulo": titulo[:200], "url": url, "contexto": contexto(a)})
     return out
 
 
@@ -137,6 +137,27 @@ def titulo_desde_url(url: str) -> str:
     if len(seg) < 6 or not re.search(r"[A-Za-z]{3}", seg):
         return ""
     return seg[:1].upper() + seg[1:] if seg.islower() else seg
+
+
+def contexto(a) -> str:
+    """Texto del bloque que contiene el enlace (fila, tarjeta, ítem), útil para leer el lugar."""
+    for tag in ("tr", "li", "article"):
+        p = a.find_parent(tag)
+        if p:
+            t = re.sub(r"\s+", " ", p.get_text(" ")).strip()
+            if len(t) <= 600:
+                return t[:300]
+    p = a.parent
+    for _ in range(4):
+        if p is None:
+            break
+        t = re.sub(r"\s+", " ", p.get_text(" ")).strip()
+        if len(t) > 600:
+            break
+        if len(t) > len(a.get_text(strip=True)) + 10:
+            return t[:300]
+        p = p.parent
+    return ""
 
 
 def clave(v: dict) -> str:
