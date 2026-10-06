@@ -1,0 +1,67 @@
+# ─────────────────────────────────────────────────────────────────────────────
+#  Vigía de vacantes · Radar Progresso · configuración
+#  Edita este archivo con cualquier editor de texto. Las líneas con # son comentarios.
+# ─────────────────────────────────────────────────────────────────────────────
+
+# Perfil: marca como "coincide" toda vacante cuyo título o lugar contenga alguna de estas palabras.
+# No importan tildes ni mayúsculas. Ajústalo por cliente o por ruta de carrera.
+perfil:
+  palabras_clave:
+    - Colombia
+    - Bogotá
+    - remoto
+    - remote
+    - América Latina
+    - Latin America
+    - LAC
+    - coordinador
+    - coordinator
+    - sostenibilidad
+    - sustainability
+    - ESG
+    - programas
+    - program manager
+    - monitoreo
+    - MEAL
+  # Vacantes que se ocultan del reporte (no cuentan como nuevas):
+  excluir:
+    - pasantía
+    - pasante
+    - intern
+    - internship
+    - voluntario
+    - volunteer
+
+# Portales Workday: si tienen hasta "maximo_por_portal" vacantes se traen todas; si tienen más,
+# solo se buscan estos términos para no traer miles de cargos de otros países.
+# Deja una línea con "" si quieres traer todo.
+terminos_portales_grandes:
+  - Colombia
+  - Latin America
+  - América Latina
+  - Remote
+
+incluir_agregadores: true      # bolsas de empleo como ReliefWeb, Devex, Idealist…
+render_js: false               # true = abre con navegador las páginas que cargan con JavaScript (requiere playwright)
+dias_como_nueva: 7             # en el Radar, una vacante se muestra como "nueva" durante estos días
+
+# Cortesía con los sitios (no bajes estos valores)
+respetar_robots_txt: true
+concurrencia: 6                # sitios distintos revisados a la vez
+pausa_por_dominio_segundos: 2  # espera entre dos visitas al mismo sitio
+timeout_segundos: 25
+maximo_por_portal: 200
+contacto: ""                   # correo o web que se envía en el identificador del robot, p. ej. "contacto@progresso.co"
+
+# Correo (opcional). La clave nunca va aquí: usa variables de entorno o secretos de GitHub
+# SMTP_HOST, SMTP_PUERTO, SMTP_USUARIO, SMTP_CLAVE y CORREO_DESTINO.
+correo_destino: ""
+correo_aunque_no_haya_nuevas: false
+url_reporte: ""                # si publicas el reporte (p. ej. GitHub Pages), pon aquí su dirección
+
+# Organizaciones adicionales que no están en el radar (mismo formato que organizaciones.json):
+organizaciones_extra: []
+#  - id: terreno-latam
+#    n: Terreno
+#    j: https://terreno-latam.pages.dev
+#    t: Agregador
