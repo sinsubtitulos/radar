@@ -42,7 +42,7 @@ terminos_portales_grandes:
   - Remote
 
 incluir_agregadores: true      # bolsas de empleo como ReliefWeb, Devex, Idealist…
-render_js: false               # true = abre con navegador las páginas que cargan con JavaScript (requiere playwright)
+render_js: true                # true = abre con navegador las páginas que cargan con JavaScript (requiere playwright)
 dias_como_nueva: 7             # en el Radar, una vacante se muestra como "nueva" durante estos días
 
 # Cortesía con los sitios (no bajes estos valores)
