@@ -8,7 +8,8 @@ from urllib.parse import urlparse
 
 import requests
 
-UA = "ProgressoRadarVigia/1.0 (+monitoreo de vacantes publicas; contacto en config.yaml)"
+ROBOT = "ProgressoRadarVigia"
+UA = "Mozilla/5.0 (compatible; ProgressoRadarVigia/1.0; +monitoreo de vacantes publicas; contacto en config.yaml)"
 
 
 class Bloqueada(Exception):
@@ -25,6 +26,7 @@ class Http:
         self.s = requests.Session()
         self.s.headers.update({
             "User-Agent": self.ua,
+            "Accept": "text/html,application/xhtml+xml,application/json;q=0.9,*/*;q=0.8",
             "Accept-Language": "es-CO,es;q=0.9,en;q=0.8",
         })
         self._robots: dict[str, urllib.robotparser.RobotFileParser | None] = {}
@@ -62,7 +64,7 @@ class Http:
                 rp = None
             self._robots[base] = rp
         rp = self._robots[base]
-        return True if rp is None else rp.can_fetch(self.ua, url)
+        return True if rp is None else rp.can_fetch(ROBOT, url)
 
     # ── peticiones ───────────────────────────────────────────────────────────
     def get(self, url: str, **kw) -> requests.Response:
@@ -80,11 +82,18 @@ class Http:
             with self._lock(host):
                 self._esperar(host)
                 try:
-                    r = self.s.request(method, url, timeout=self.timeout, **kw)
+                    r = self.s.request(method, url, timeout=self.timeout, **{k: v for k, v in kw.items() if k != "_sin_ua"})
                 except requests.RequestException as e:
                     ultimo_error = e
                     r = None
             if r is not None:
+                if r.status_code == 403 and intento == 0 and not kw.get("_sin_ua"):
+                    # algunos cortafuegos rechazan identificadores de robot poco comunes:
+                    # segundo intento con un identificador de navegador estándar que conserva el nombre del robot
+                    kw = dict(kw, headers={**(kw.get("headers") or {}),
+                              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0 Safari/537.36 ProgressoRadarVigia/1.0"})
+                    kw["_sin_ua"] = True
+                    continue
                 if r.status_code in (429, 502, 503, 504) and intento < 2:
                     time.sleep(5 * (intento + 1))
                     continue

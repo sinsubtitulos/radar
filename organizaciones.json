@@ -44,7 +44,7 @@
  {
   "id": "acdi-voca",
   "n": "Acdi Voca",
-  "j": "https://www.acdivoca.org/job-opportunities/",
+  "j": "https://www.acdivoca.org/international-job-openings/",
   "t": "Desarrollo Económico"
  },
  {
@@ -195,7 +195,7 @@
  {
   "id": "aspen-network-of-development-entrepreneurs",
   "n": "Aspen Network of Development Entrepreneurs",
-  "j": "https://www.andeglobal.org/networking/",
+  "j": "https://andeglobal.org/ande-careers/",
   "t": "Desarrollo Económico"
  },
  {
@@ -495,7 +495,7 @@
  {
   "id": "consejo-privado-de-competitividad",
   "n": "Consejo Privado de Competitividad",
-  "j": "https://compite.com.co/convocatoria/",
+  "j": "",
   "t": "Desarrollo Económico"
  },
  {
@@ -587,7 +587,7 @@
  {
   "id": "creative-associates-international",
   "n": "Creative Associates International",
-  "j": "https://global-creative.icims.com/jobs/search",
+  "j": "https://www.creativeassociatesinternational.com/careers/openings/",
   "t": "Humanitario"
  },
  {
@@ -726,7 +726,7 @@
  {
   "id": "education-for-employment",
   "n": "Education for employment",
-  "j": "https://www.efe.org/en/about/join-our-team/",
+  "j": "https://www.efe.org/careers",
   "t": "Educación"
  },
  {
@@ -906,8 +906,8 @@
  },
  {
   "id": "fund-for-global-huan-rights",
-  "n": "Fund for Global Huan Rights",
-  "j": "https://globalhumanrights.org/employmentinternships/",
+  "n": "Fund for Global Human Rights",
+  "j": "https://fundhumanrights.org/careers/",
   "t": "Humanitario"
  },
  {
@@ -1958,7 +1958,7 @@
  {
   "id": "jobs-to-apply",
   "n": "Jobs To Apply",
-  "j": "https://jobstoapply.com/jobs-listing",
+  "j": "https://jobstoapply.com/",
   "t": "Agregador"
  },
  {
@@ -2552,7 +2552,7 @@
  {
   "id": "santiago-network",
   "n": "Santiago Network",
-  "j": "https://santiago-network.org/opportunities/vacancies",
+  "j": "https://santiago-network.org/pages/deliver-technical-assistance",
   "t": "Desarrollo Comunitario"
  },
  {
@@ -2720,7 +2720,7 @@
  {
   "id": "the-lego-foundation",
   "n": "The LEGO Foundation",
-  "j": "https://learningthroughplay.com/about-us/join-our-team",
+  "j": "https://thelegofoundation.teamtailor.com/jobs",
   "t": "Niñez"
  },
  {
@@ -3009,7 +3009,7 @@
  {
   "id": "work-for-good",
   "n": "Work for Good",
-  "j": "https://workforgood.org/candidates/find-a-job/",
+  "j": "https://app.workforgood.org/",
   "t": "Agregador"
  },
  {

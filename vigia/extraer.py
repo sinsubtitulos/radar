@@ -95,12 +95,15 @@ def extraer_enlaces(html: str, url_base: str) -> list[dict]:
             h = bloque.find(["h1", "h2", "h3", "h4", "h5", "strong"]) if bloque else None
             if h and h.get_text(strip=True):
                 titulo = re.sub(r"\s+", " ", h.get_text(" ")).strip()
+        texto_enlace = norm(titulo)
+        if es_generico(titulo):
+            titulo = titulo_desde_url(url) or titulo
         nt = norm(titulo)
         if not (6 <= len(titulo) <= 220) or RUIDO.match(nt):
             continue
         host = urlparse(url).netloc.lower().removeprefix("www.")
         puntos = 0
-        if CARGO.search(nt):
+        if CARGO.search(nt) or CARGO.search(texto_enlace):
             puntos += 2
         if URL_PISTA.search(url):
             puntos += 1
@@ -113,6 +116,27 @@ def extraer_enlaces(html: str, url_base: str) -> list[dict]:
         vistos.add(url)
         out.append({"titulo": titulo[:200], "url": url})
     return out
+
+
+GENERICO = re.compile(r"^(ver|descargar|leer|mas|aplicar|postular|postulate|apply|view|read|download|click|clic|consultar|"
+                      r"conoce|details|detalles|see|aqui|here|pdf|link|enlace)\b")
+
+
+def es_generico(t: str) -> bool:
+    n = norm(t)
+    return len(n) < 30 and bool(GENERICO.match(n))
+
+
+def titulo_desde_url(url: str) -> str:
+    """Cuando el enlace solo dice «Ver convocatoria», el nombre del archivo suele traer el cargo."""
+    from urllib.parse import unquote
+    seg = unquote(urlparse(url).path.rstrip("/").split("/")[-1])
+    seg = re.sub(r"\.(pdf|docx?|html?|aspx|php)$", "", seg, flags=re.I)
+    seg = re.sub(r"[-_.+]+", " ", seg).strip()
+    seg = re.sub(r"\s+\d{1,2}$", "", seg)
+    if len(seg) < 6 or not re.search(r"[A-Za-z]{3}", seg):
+        return ""
+    return seg[:1].upper() + seg[1:] if seg.islower() else seg
 
 
 def clave(v: dict) -> str:
