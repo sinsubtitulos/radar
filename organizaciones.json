@@ -930,16 +930,18 @@
  {
   "id": "fundacion-acerias-paz-del-rio",
   "n": "Fundación Acerías Paz del Río",
-  "j": "",
+  "j": "https://www.elempleo.com/co/sitio-empresarial/acerias-paz-rio?v2=true",
   "t": "Filantropía",
-  "afe": true
+  "afe": true,
+  "filtro": "corporativo"
  },
  {
   "id": "fundacion-acesco",
   "n": "Fundación ACESCO",
   "j": "https://www.acesco.com.co/trabaja-con-nosotros/",
   "t": "Desarrollo Comunitario",
-  "afe": true
+  "afe": true,
+  "filtro": "corporativo"
  },
  {
   "id": "fundacion-agricola-himalaya",
@@ -979,7 +981,7 @@
  {
   "id": "fundacion-amanecer",
   "n": "Fundación Amanecer",
-  "j": "",
+  "j": "https://co.computrabajo.com/empresas/ofertas-de-trabajo-de-fundacion-amanecer-05DC22A6565E22DC",
   "t": "Filantropía",
   "afe": true
  },
@@ -1014,9 +1016,10 @@
  {
   "id": "fundacion-bajo-el-palmar",
   "n": "Fundación Bajo El Palmar",
-  "j": "",
+  "j": "https://palcesar.com/trabaje-con-nosotros/",
   "t": "Filantropía",
-  "afe": true
+  "afe": true,
+  "filtro": "corporativo"
  },
  {
   "id": "fundacion-bancolombia",
@@ -1035,16 +1038,18 @@
  {
   "id": "fundacion-bavaria",
   "n": "Fundación Bavaria",
-  "j": "",
+  "j": "https://www.bavaria.co/talento",
   "t": "Filantropía",
-  "afe": true
+  "afe": true,
+  "filtro": "corporativo"
  },
  {
   "id": "fundacion-belcorp",
   "n": "Fundación Belcorp",
-  "j": "",
+  "j": "https://trabajaenbelcorp.biz/",
   "t": "Filantropía",
-  "afe": true
+  "afe": true,
+  "filtro": "corporativo"
  },
  {
   "id": "fundacion-berta-martinez",
@@ -1063,7 +1068,7 @@
  {
   "id": "fundacion-caicedo-gonzalez-riopaila-castilla",
   "n": "Fundación Caicedo González Riopaila Castilla",
-  "j": "",
+  "j": "https://fcgriopailacastilla.org/site/trabaje-con-nosotros/",
   "t": "Filantropía",
   "afe": true
  },
@@ -1077,7 +1082,7 @@
  {
   "id": "fundacion-carvajal",
   "n": "Fundación Carvajal",
-  "j": "",
+  "j": "https://www.fundacioncarvajal.org.co/trabaje-con-nosotros",
   "t": "Filantropía",
   "afe": true
  },
@@ -1098,9 +1103,10 @@
  {
   "id": "fundacion-coomeva",
   "n": "Fundación Coomeva",
-  "j": "",
+  "j": "https://www.magneto365.com/co/empresas/coomeva",
   "t": "Filantropía",
-  "afe": true
+  "afe": true,
+  "filtro": "corporativo"
  },
  {
   "id": "fundacion-corazon-de-cana",
@@ -1168,21 +1174,23 @@
  {
   "id": "fundacion-grupo-argos",
   "n": "Fundación Grupo Argos",
-  "j": "",
+  "j": "https://jobs.grupoargos.com/",
   "t": "Filantropía",
-  "afe": true
+  "afe": true,
+  "filtro": "corporativo"
  },
  {
   "id": "fundacion-grupo-bios",
   "n": "Fundación Grupo Bios",
-  "j": "",
+  "j": "https://www.magneto365.com/co/empresas/grupo-bios",
   "t": "Filantropía",
-  "afe": true
+  "afe": true,
+  "filtro": "corporativo"
  },
  {
   "id": "fundacion-grupo-epm",
   "n": "Fundación Grupo EPM",
-  "j": "",
+  "j": "https://www.grupo-epm.com/site/fundacion-grupo-epm/trabaja-con-nosotros/",
   "t": "Filantropía",
   "afe": true
  },
@@ -1210,9 +1218,10 @@
  {
   "id": "fundacion-juan-del-corral",
   "n": "Fundación Juan del Corral",
-  "j": "",
+  "j": "https://www.magneto365.com/co/empresas/cadena",
   "t": "Filantropía",
-  "afe": true
+  "afe": true,
+  "filtro": "corporativo"
  },
  {
   "id": "fundacion-keralty",
@@ -1238,7 +1247,7 @@
  {
   "id": "fundacion-llevando-esperanza",
   "n": "Fundación Llevando Esperanza",
-  "j": "",
+  "j": "https://hoffnungstraeger.de/jobs/",
   "t": "Filantropía",
   "afe": true
  },
@@ -1273,14 +1282,15 @@
  {
   "id": "fundacion-monomeros",
   "n": "Fundación Monómeros",
-  "j": "",
+  "j": "https://www.monomeros.com.co/trabaja-con-nosotros/",
   "t": "Filantropía",
-  "afe": true
+  "afe": true,
+  "filtro": "corporativo"
  },
  {
   "id": "fundacion-mundo-mujer",
   "n": "Fundación Mundo Mujer",
-  "j": "",
+  "j": "https://www.fmm.org.co/trabaja-con-nosotros",
   "t": "Filantropía",
   "afe": true
  },
@@ -1320,16 +1330,18 @@
  {
   "id": "fundacion-pepsico-colombia",
   "n": "Fundación PepsiCo Colombia",
-  "j": "",
+  "j": "https://www.pepsicojobs.com/main/",
   "t": "Filantropía",
-  "afe": true
+  "afe": true,
+  "filtro": "corporativo"
  },
  {
   "id": "fundacion-pintuco",
   "n": "Fundación Pintuco",
-  "j": "",
+  "j": "https://www.elempleo.com/sitios-empresariales/colombia/grupo-orbis/",
   "t": "Filantropía",
-  "afe": true
+  "afe": true,
+  "filtro": "corporativo"
  },
  {
   "id": "fundacion-plan",
@@ -1340,16 +1352,18 @@
  {
   "id": "fundacion-postobon",
   "n": "Fundación Postobón",
-  "j": "",
+  "j": "https://www.postobon.com/la-compania/trabaja-nosotros",
   "t": "Filantropía",
-  "afe": true
+  "afe": true,
+  "filtro": "corporativo"
  },
  {
   "id": "fundacion-promigas",
   "n": "Fundación Promigas",
-  "j": "",
+  "j": "https://trabajaconnosotros.promigas.com/",
   "t": "Filantropía",
-  "afe": true
+  "afe": true,
+  "filtro": "corporativo"
  },
  {
   "id": "fundacion-propal",
@@ -1361,9 +1375,10 @@
  {
   "id": "fundacion-puerto-aguadulce",
   "n": "Fundación Puerto Aguadulce",
-  "j": "",
+  "j": "https://puertoaguadulce.our-jobs.com/",
   "t": "Filantropía",
-  "afe": true
+  "afe": true,
+  "filtro": "corporativo"
  },
  {
   "id": "fundacion-quironsalud-colombia",
@@ -1424,16 +1439,17 @@
  {
   "id": "fundacion-sidoc",
   "n": "Fundación Sidoc",
-  "j": "",
+  "j": "https://www.fundacionsidoc.org/trabaja-con-nosotros/",
   "t": "Filantropía",
   "afe": true
  },
  {
   "id": "fundacion-smurfit-westrock",
   "n": "Fundación Smurfit Westrock",
-  "j": "",
+  "j": "https://www.magneto365.com/co/empresas/smurfit-westrock",
   "t": "Filantropía",
-  "afe": true
+  "afe": true,
+  "filtro": "corporativo"
  },
  {
   "id": "fundacion-socya",
@@ -1494,7 +1510,7 @@
  {
   "id": "fundacion-upb",
   "n": "Fundación UPB",
-  "j": "",
+  "j": "https://www.upb.edu.co/es/convocatorias-laborales",
   "t": "Filantropía",
   "afe": true
  },
@@ -1985,7 +2001,8 @@
   "n": "Johnson & Johnson",
   "j": "https://www.careers.jnj.com/en/jobs/?search=&country=Colombia",
   "t": "Salud",
-  "pais": "CO"
+  "pais": "CO",
+  "filtro": "asuntos_publicos"
  },
  {
   "id": "juntos-construyendo-futuro",

@@ -41,12 +41,60 @@ def _patrones(lista):
     return [norm(x) for x in (lista or []) if str(x).strip()]
 
 
-def clasificar(v: dict, perfil: dict, org: dict | None = None, reglas=None) -> dict:
+FILTRO_CORPORATIVO = [
+    "fundacion", "social", "sociales", "comunidad", "comunidades", "comunitario", "comunitaria",
+    "sostenibilidad", "sostenible", "ambiental", "medio ambiente", "responsabilidad social", "rse", "esg",
+    "impacto", "relacionamiento", "voluntariado", "derechos humanos", "gestion social", "inversion social",
+    # asuntos de sostenibilidad
+    "cambio climatico", "climatico", "climatica", "accion climatica", "carbono", "huella de carbono",
+    "descarbonizacion", "emisiones", "gases de efecto invernadero", "energia renovable", "energias renovables",
+    "transicion energetica", "eficiencia energetica", "economia circular", "residuos", "reciclaje",
+    "biodiversidad", "conservacion", "gestion ambiental", "recurso hidrico", "gestion hidrica",
+    "reporte de sostenibilidad", "informe de sostenibilidad", "gri", "tcfd", "asg", "negocios sostenibles",
+    "finanzas sostenibles", "bonos verdes", "taxonomia verde",
+    "sustainability", "sustainable", "environmental", "climate", "carbon", "decarbonization", "net zero",
+    "renewable", "renewables", "energy transition", "circular economy", "biodiversity", "conservation",
+    "green finance",
+]
+
+
+# Para empresas cuyos cargos de interés son de impacto social o asuntos públicos (p. ej. Johnson & Johnson).
+# Incluye equivalentes en inglés porque estos portales suelen publicar en ese idioma.
+FILTRO_ASUNTOS_PUBLICOS = FILTRO_CORPORATIVO + [
+    "impacto social", "asuntos publicos", "asuntos corporativos", "asuntos gubernamentales",
+    "relaciones gubernamentales", "relaciones institucionales", "politica publica", "politicas publicas",
+    "acceso al mercado", "equidad en salud", "salud publica", "salud global", "asociaciones con pacientes",
+    "comunicaciones corporativas", "filantropia", "ciudadania corporativa",
+    "foundation", "social impact", "community", "communities", "sustainability", "csr", "philanthropy",
+    "public affairs", "corporate affairs", "government affairs", "government relations", "public policy",
+    "health policy", "market access", "health equity", "global health", "public health", "patient advocacy",
+    "patient engagement", "corporate communications", "external affairs", "stakeholder engagement", "citizenship",
+]
+
+
+def filtro_de(org: dict | None, cfg: dict) -> list[str]:
+    """Palabras que debe tener el cargo para contarse, en organizaciones que publican en el portal de su empresa.
+    "filtro" puede ser "corporativo", "asuntos_publicos" o una lista propia de palabras."""
+    f = (org or {}).get("filtro")
+    if not f:
+        return []
+    if f == "corporativo":
+        f = cfg.get("filtro_corporativo") or FILTRO_CORPORATIVO
+    elif f == "asuntos_publicos":
+        f = cfg.get("filtro_asuntos_publicos") or FILTRO_ASUNTOS_PUBLICOS
+    return [norm(x) for x in f if str(x).strip()]
+
+
+def clasificar(v: dict, perfil: dict, org: dict | None = None, reglas=None, filtro: list[str] | None = None) -> dict:
     txt = norm(f"{v.get('titulo', '')} {v.get('lugar', '')}")
     inc = [str(x).strip() for x in (perfil.get("palabras_clave") or []) if str(x).strip()]
     exc = _patrones(perfil.get("excluir"))
     v["coincide"] = [p for p in inc if re.search(r"\b" + re.escape(norm(p)) + r"\b", txt)]
     v["excluida"] = any(re.search(r"\b" + re.escape(p) + r"\b", txt) for p in exc)
+    if filtro:
+        t2 = norm(f"{v.get('titulo', '')} {v.get('contexto', '')}")
+        if not any(re.search(r"\b" + re.escape(p) + r"\b", t2) for p in filtro):
+            v["excluida"] = True  # portal corporativo: el cargo no tiene relación con la fundación o lo social
     if reglas is not None:
         v["ubicacion"] = ub.clasificar(v, org or {}, reglas)
         v["fuera"] = not ub.permitida(v["ubicacion"], reglas)
@@ -131,7 +179,7 @@ def correr(cfg: dict, orgs: list[dict], ruta_estado: str, log=print) -> dict:
 
         actuales = {}
         for v in res.get("vacantes", []):
-            v = clasificar(dict(v), perfil, por_id.get(oid), reglas)
+            v = clasificar(dict(v), perfil, por_id.get(oid), reglas, filtro_de(por_id.get(oid), cfg))
             actuales[clave(v)] = v
         for k, v in actuales.items():
             if k in e["vacantes"]:
