@@ -758,7 +758,7 @@
  {
   "id": "embajada-de-canada-en-colombia",
   "n": "Embajada de Canadá en Colombia",
-  "j": "https://www.linkedin.com/company/can-col/jobs/",
+  "j": "https://staffing-les.international.gc.ca/en/",
   "t": "Diplomático"
  },
  {
@@ -937,7 +937,7 @@
  {
   "id": "fundacion-acesco",
   "n": "Fundación ACESCO",
-  "j": "https://www.linkedin.com/company/acescocolombia",
+  "j": "https://www.acesco.com.co/trabaja-con-nosotros/",
   "t": "Desarrollo Comunitario",
   "afe": true
  },
@@ -1571,7 +1571,7 @@
  {
   "id": "global-affairs-canada",
   "n": "Global Affairs Canada",
-  "j": "https://www.linkedin.com/company/global-affairs-canada-affaires-mondiales-canada/jobs/",
+  "j": "https://international.canada.ca/en/global-affairs/corporate/jobs",
   "t": "Cooperación"
  },
  {
@@ -1814,8 +1814,9 @@
  {
   "id": "instituto-capaz",
   "n": "Instituto CAPAZ",
-  "j": "https://www.linkedin.com/company/instituto-capaz/jobs/",
-  "t": "Humanitario"
+  "j": "https://www.instituto-capaz.org/tag/convocatoria/",
+  "t": "Humanitario",
+  "pais": "CO"
  },
  {
   "id": "instituto-holandes-para-la-democracia-multipartidaria-nimd",
@@ -2713,8 +2714,9 @@
  {
   "id": "terrasos",
   "n": "Terrasos",
-  "j": "https://www.linkedin.com/company/terrasos/",
-  "t": "Sostenibilidad"
+  "j": "https://en.terrasos.co/trabaja-con-nosotros",
+  "t": "Sostenibilidad",
+  "pais": "CO"
  },
  {
   "id": "terre-des-hommes-foundation",
