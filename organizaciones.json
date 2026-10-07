@@ -94,19 +94,22 @@
   "id": "agata-data-agencia-analitica-de-datos",
   "n": "Agata Data - Agencia Analítica de Datos",
   "j": "https://agatadata.com/trabaja/",
-  "t": "Gobierno"
+  "t": "Gobierno",
+  "pais": "CO"
  },
  {
   "id": "agencia-de-cooperacion-internacional-de-medellin",
   "n": "Agencia de Cooperación Internacional de Medellín",
   "j": "https://acimedellin.org/ofertas-de-empleo/",
-  "t": "Cooperación"
+  "t": "Cooperación",
+  "pais": "CO"
  },
  {
   "id": "agencia-italiana-de-cooperacion-para-el-desarrollo-aics",
   "n": "Agencia Italiana de Cooperación para el Desarrollo (AICS)",
   "j": "https://trasparenzabogota.aics.gov.it/index.php?id_sezione=806&id_cat=0",
-  "t": "Cooperación"
+  "t": "Cooperación",
+  "pais": "CO"
  },
  {
   "id": "aida-americas",
@@ -136,7 +139,8 @@
   "id": "alianza-por-la-solidaridad-action-aid-colombia",
   "n": "Alianza por la Solidaridad – Action Aid | Colombia",
   "j": "https://sites.google.com/view/convocatoriasalianzacolombia/home",
-  "t": "Humanitario"
+  "t": "Humanitario",
+  "pais": "CO"
  },
  {
   "id": "alinea",
@@ -220,13 +224,15 @@
   "id": "banco-de-la-republica",
   "n": "Banco de la República",
   "j": "https://www.magneto365.com/co/empresas/banrep/empleos",
-  "t": "Desarrollo Económico"
+  "t": "Desarrollo Económico",
+  "pais": "CO"
  },
  {
   "id": "banco-interamericano-de-desarrollo-bid",
   "n": "Banco Interamericano de Desarrollo BID",
   "j": "https://jobs.iadb.org/search/?q=&locationsearch=colombia&",
-  "t": "Desarrollo Económico"
+  "t": "Desarrollo Económico",
+  "pais": "CO"
  },
  {
   "id": "banyan-global",
@@ -418,7 +424,8 @@
   "id": "cidemos",
   "n": "Cidemos",
   "j": "https://www.cidemos.org/publicaciones/vigentes",
-  "t": "Desarrollo Comunitario"
+  "t": "Desarrollo Comunitario",
+  "pais": "CO"
  },
  {
   "id": "ciudad-del-saber",
@@ -643,7 +650,8 @@
   "id": "dejusticia",
   "n": "Dejusticia",
   "j": "https://www.dejusticia.org/tag/convocatoria/",
-  "t": "Evaluación"
+  "t": "Evaluación",
+  "pais": "CO"
  },
  {
   "id": "delivery-associates",
@@ -799,7 +807,8 @@
   "id": "equilibrium",
   "n": "Equilibrium",
   "j": "https://equilibriumsdc.com/convocatorias/",
-  "t": "Evaluación"
+  "t": "Evaluación",
+  "pais": "CO"
  },
  {
   "id": "ethos-atlas",
@@ -877,7 +886,8 @@
   "id": "fondo-accion",
   "n": "Fondo Acción",
   "j": "https://fondoaccion.org/convocatorias/",
-  "t": "Sostenibilidad"
+  "t": "Sostenibilidad",
+  "pais": "CO"
  },
  {
   "id": "fondo-noruego-para-los-derechos-humanos",
@@ -914,7 +924,8 @@
   "id": "fundacion-acdi-voca",
   "n": "Fundación Acdi Voca",
   "j": "https://www.favla.org/es/convocatorias",
-  "t": "Sostenibilidad"
+  "t": "Sostenibilidad",
+  "pais": "CO"
  },
  {
   "id": "fundacion-acerias-paz-del-rio",
@@ -1074,7 +1085,8 @@
   "id": "fundacion-cedavida",
   "n": "Fundación Cedavida",
   "j": "https://www.cedavida.org/trabaja-con-nosotros/",
-  "t": "Humanitario"
+  "t": "Humanitario",
+  "pais": "CO"
  },
  {
   "id": "fundacion-colombina",
@@ -1248,7 +1260,8 @@
   "id": "fundacion-mi-sangre",
   "n": "Fundación Mi Sangre",
   "j": "https://fundacionmisangre.org/convocatorias/",
-  "t": "Desarrollo Comunitario"
+  "t": "Desarrollo Comunitario",
+  "pais": "CO"
  },
  {
   "id": "fundacion-mineros",
@@ -1287,7 +1300,8 @@
   "id": "fundacion-omacha",
   "n": "Fundación Omacha",
   "j": "https://omacha.org/profesionales/",
-  "t": "Sostenibilidad"
+  "t": "Sostenibilidad",
+  "pais": "CO"
  },
  {
   "id": "fundacion-otero-lievano",
@@ -1300,7 +1314,8 @@
   "id": "fundacion-panamericana-para-el-desarrollo-fupad",
   "n": "Fundación Panamericana para el Desarrollo FUPAD",
   "j": "https://convocatorias.fupad.org",
-  "t": "Desarrollo Económico"
+  "t": "Desarrollo Económico",
+  "pais": "CO"
  },
  {
   "id": "fundacion-pepsico-colombia",
@@ -1424,7 +1439,8 @@
   "id": "fundacion-socya",
   "n": "Fundación Socya",
   "j": "https://somos.socya.org:30443/BancoCandidatos/",
-  "t": "Sostenibilidad"
+  "t": "Sostenibilidad",
+  "pais": "CO"
  },
  {
   "id": "fundacion-sofia-perez-de-soto",
@@ -1525,7 +1541,8 @@
   "id": "gaia-amazonas",
   "n": "Gaia Amazonas",
   "j": "https://gaiaamazonas.org/trabaja-con-nosotros/",
-  "t": "Sostenibilidad"
+  "t": "Sostenibilidad",
+  "pais": "CO"
  },
  {
   "id": "gender-jobs",
@@ -1627,7 +1644,8 @@
   "id": "great-place-to-work",
   "n": "Great Place To Work",
   "j": "https://sites.google.com/peoplesvoice.co/portaldecontactopeoplesvoice/convocatorias-activas",
-  "t": "Consultoría"
+  "t": "Consultoría",
+  "pais": "CO"
  },
  {
   "id": "green-climate-fund",
@@ -1965,13 +1983,15 @@
   "id": "johnson-johnson",
   "n": "Johnson & Johnson",
   "j": "https://www.careers.jnj.com/en/jobs/?search=&country=Colombia",
-  "t": "Salud"
+  "t": "Salud",
+  "pais": "CO"
  },
  {
   "id": "juntos-construyendo-futuro",
   "n": "Juntos Construyendo Futuro",
   "j": "https://www.juntosconstruyendofuturo.org/",
-  "t": "Desarrollo Económico"
+  "t": "Desarrollo Económico",
+  "pais": "CO"
  },
  {
   "id": "kiva",
@@ -2127,7 +2147,8 @@
   "id": "mision-de-apoyo-al-proceso-de-paz-en-colombia-mapp-oea",
   "n": "Misión de Apoyo al Proceso de Paz en Colombia MAPP OEA",
   "j": "https://www.mapp-oea.org/ofertas-laborales/",
-  "t": "Humanitario"
+  "t": "Humanitario",
+  "pais": "CO"
  },
  {
   "id": "mision-de-observacion-electoral",
@@ -2253,7 +2274,8 @@
   "id": "opcion-legal",
   "n": "Opción Legal",
   "j": "https://opcionlegal.org/index.php/es/contacto/vacantes",
-  "t": "Humanitario"
+  "t": "Humanitario",
+  "pais": "CO"
  },
  {
   "id": "open-igo",
@@ -2337,7 +2359,8 @@
   "id": "parque-explora",
   "n": "Parque Explora",
   "j": "https://www.magneto365.com/co/empresas/corporacion-parque-explora/empleos?q=corporacion+parque+explora",
-  "t": "Educación"
+  "t": "Educación",
+  "pais": "CO"
  },
  {
   "id": "partners-of-the-americas",
@@ -2433,7 +2456,8 @@
   "id": "profamilia",
   "n": "Profamilia",
   "j": "https://asociacion-profamilia.pandape.computrabajo.com",
-  "t": "Salud"
+  "t": "Salud",
+  "pais": "CO"
  },
  {
   "id": "project-hope",
@@ -2469,7 +2493,8 @@
   "id": "red-adelco",
   "n": "Red Adelco",
   "j": "https://redadelco.org/convocatorias-habilitadas/",
-  "t": "Desarrollo Comunitario"
+  "t": "Desarrollo Comunitario",
+  "pais": "CO"
  },
  {
   "id": "red-nacional-de-organismos-civiles-de-derechos-humanos",
@@ -2481,7 +2506,8 @@
   "id": "red-papaz",
   "n": "Red Papaz",
   "j": "https://www.redpapaz.org/red-papaz-2/trabaje-con-nosotros/",
-  "t": "Niñez"
+  "t": "Niñez",
+  "pais": "CO"
  },
  {
   "id": "red-sea-executive-search",
@@ -2493,7 +2519,8 @@
   "id": "refugiados-unidos",
   "n": "Refugiados Unidos",
   "j": "https://www.refugiadosunidos.org/index.php/es/convocatorias",
-  "t": "Migración"
+  "t": "Migración",
+  "pais": "CO"
  },
  {
   "id": "reliefweb",
@@ -2547,7 +2574,8 @@
   "id": "ruta-n-medellin",
   "n": "Ruta N Medellín",
   "j": "https://rutanmedellin.org/trabaja-con-nosotros/persona-natural",
-  "t": "Tecnología"
+  "t": "Tecnología",
+  "pais": "CO"
  },
  {
   "id": "santiago-network",
@@ -2589,7 +2617,8 @@
   "id": "servicio-jesuita-a-refugiados",
   "n": "Servicio Jesuita a Refugiados",
   "j": "https://col.jrs.net/es/trabaja-con-nosotros/",
-  "t": "Humanitario"
+  "t": "Humanitario",
+  "pais": "CO"
  },
  {
   "id": "solidaridad-latam",
@@ -2733,7 +2762,8 @@
   "id": "tiempo-de-juego",
   "n": "Tiempo de Juego",
   "j": "https://tiempodejuego.org/ofertas-laborales/",
-  "t": "Desarrollo Comunitario"
+  "t": "Desarrollo Comunitario",
+  "pais": "CO"
  },
  {
   "id": "trabajar-por-el-mundo",
@@ -2896,7 +2926,8 @@
   "id": "universidad-icesi",
   "n": "Universidad ICESI",
   "j": "https://app.genoma.work/jobs/universidad-icesi/",
-  "t": "Educación"
+  "t": "Educación",
+  "pais": "CO"
  },
  {
   "id": "universidad-santo-tomas",
@@ -2944,7 +2975,8 @@
   "id": "velezreyes",
   "n": "VelezReyes+",
   "j": "https://velezreyesmas.com/trabaja-con-nosotros/",
-  "t": "Educación"
+  "t": "Educación",
+  "pais": "CO"
  },
  {
   "id": "war-child",

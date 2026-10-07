@@ -7,13 +7,35 @@ from urllib.parse import urlparse
 from .extraer import norm
 
 COLOMBIA = [
-    "colombia", "colombian", "colombiano", "colombiana", "bogota", "medellin", "cali", "barranquilla", "cartagena",
-    "bucaramanga", "cucuta", "pereira", "manizales", "santa marta", "villavicencio", "pasto", "monteria", "ibague",
-    "neiva", "popayan", "quibdo", "riohacha", "valledupar", "sincelejo", "tunja", "yopal", "mocoa", "leticia",
-    "arauca", "san andres", "apartado", "tumaco", "buenaventura", "soacha", "uraba", "choco", "antioquia",
-    "narino", "putumayo", "guaviare", "caqueta", "la guajira", "norte de santander", "santander", "huila",
-    "tolima", "boyaca", "cundinamarca", "risaralda", "caldas", "quindio", "vichada", "vaupes", "guainia",
-    "casanare", "catatumbo", "magdalena medio", "bajo cauca", "montes de maria", "sierra nevada",
+    # país y gentilicios
+    "colombia", "colombian", "colombiano", "colombiana",
+    # las 32 capitales de departamento + Bogotá (Armenia, Florencia y Pasto llevan su departamento al lado,
+    # porque también son un país, una ciudad italiana y una palabra común)
+    "bogota", "medellin", "cali", "barranquilla", "cartagena", "cucuta", "bucaramanga", "pereira", "santa marta",
+    "ibague", "villavicencio", "manizales", "neiva", "valledupar", "monteria", "popayan", "sincelejo", "tunja",
+    "riohacha", "quibdo", "yopal", "mocoa", "leticia", "arauca", "san andres", "inirida", "mitu", "puerto carreno",
+    "san jose del guaviare", "armenia quindio", "armenia, quindio", "armenia (quindio)", "florencia caqueta",
+    "florencia, caqueta", "florencia (caqueta)", "pasto narino", "pasto, narino", "pasto (narino)", "ciudad de pasto",
+    "san juan de pasto",
+    # departamentos y regiones sin doble sentido
+    "antioquia", "atlantico", "cauca", "valle del cauca", "narino", "putumayo", "guaviare", "caqueta", "la guajira",
+    "norte de santander", "santander", "huila", "tolima", "boyaca", "cundinamarca", "risaralda", "caldas", "quindio",
+    "vichada", "vaupes", "guainia", "casanare", "choco", "uraba", "catatumbo", "magdalena medio", "bajo cauca",
+    "montes de maria", "sierra nevada de santa marta", "eje cafetero", "pacifico colombiano", "caribe colombiano",
+    # municipios sin doble sentido
+    "soacha", "envigado", "itagui", "rionegro", "marinilla", "carmen de viboral", "yarumal", "caucasia", "el bagre",
+    "ituango", "dabeiba", "frontino", "santa rosa de osos", "apartado antioquia", "chigorodo", "necocli",
+    "tulua", "jamundi", "yumbo", "buenaventura", "palmira valle", "guacari",
+    "barrancabermeja", "piedecuesta", "floridablanca", "giron santander", "san gil",
+    "ocana", "tibu", "el tarra", "sardinata", "teorama", "hacari", "villa del rosario", "chinacota",
+    "zipaquira", "fusagasuga", "facatativa", "girardot", "mosquera cundinamarca", "funza",
+    "duitama", "sogamoso", "chiquinquira", "puerto boyaca",
+    "maicao", "uribia", "manaure", "san juan del cesar", "aguachica", "magangue", "mompox", "mompos",
+    "el carmen de bolivar", "turbaco", "sabanalarga", "malambo", "zona bananera",
+    "tierralta", "montelibano", "planeta rica", "lorica",
+    "tumaco", "ipiales", "tuquerres", "guapi", "timbiqui", "lopez de micay", "istmina", "riosucio choco",
+    "puerto asis", "orito", "puerto leguizamo", "valle del guamuez", "san vicente del caguan", "puerto gaitan",
+    "saravena", "arauquita", "la dorada", "chaparral tolima", "pitalito", "garzon huila",
 ]
 REMOTO = [
     "remoto", "remota", "remote", "home based", "home-based", "homebased", "teletrabajo", "trabajo en casa",
@@ -34,6 +56,10 @@ OTROS = [
     "mozambique", "tanzania", "rwanda", "senegal", "dakar", "jordan", "syria", "lebanon", "iraq", "yemen",
     "afghanistan", "pakistan", "bangladesh", "india", "nepal", "philippines", "indonesia", "myanmar", "ukraine",
     "kyiv", "bangkok", "thailand", "turkey", "egypt", "cairo", "amman", "beirut",
+    "italia", "florencia", "florence", "suiza", "suecia", "sweden", "stockholm", "noruega", "norway", "oslo",
+    "dinamarca", "denmark", "copenhagen", "holanda", "paises bajos", "belgica", "belgium", "reino unido",
+    "estados unidos", "eeuu", "eua", "armenia", "yerevan", "portugal", "lisboa", "lisbon", "irlanda", "ireland",
+    "dublin", "austria", "vienna", "viena", "japon", "japan", "china", "australia", "sudafrica", "south africa",
 ]
 
 

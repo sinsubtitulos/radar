@@ -56,6 +56,12 @@ def escena(n):
     if n == 2: bamboo["result"].append({"id": 9, "jobOpeningName": "Coordinadora regional América Latina (remoto)", "location": {"city": "Remoto"}})
     ESCENA["https://demo.bamboohr.com/careers/list"] = bamboo
     ESCENA["https://caida.org/vacantes"] = ConnectionError("timeout simulado")
+    lista = '<li><a href="https://intl.org/jobs/1">Finance Officer</a></li>'
+    if n == 2:
+        lista += '<li><a href="https://intl.org/jobs/2">Program Manager</a></li><li><a href="https://intl.org/jobs/3">Logistics Officer</a></li>'
+    ESCENA["https://intl.org/jobs"] = "<html><body><main><h1>Jobs</h1><ul>" + lista + "</ul>" + "Texto " * 150 + "</main></body></html>"
+    ESCENA["https://intl.org/jobs/2"] = "<html><body><main><h1>Program Manager</h1><p>Duty station: Bogotá, Colombia</p></main></body></html>"
+    ESCENA["https://intl.org/jobs/3"] = "<html><body><main><h1>Logistics Officer</h1><p>Duty station: Juba, South Sudan</p></main></body></html>"
 
 ORGS = [
     {"id": "fundacion-a", "n": "Fundación A", "j": "https://fundacion-a.org/trabaja", "t": "Filantropía", "afe": True},
@@ -67,6 +73,7 @@ ORGS = [
     {"id": "caida", "n": "Sitio caído", "j": "https://caida.org/vacantes", "t": "Salud"},
     {"id": "li", "n": "Solo LinkedIn", "j": "https://www.linkedin.com/company/x/jobs/", "t": "Cooperación"},
     {"id": "nada", "n": "Sin enlace", "j": "", "t": "Filantropía"},
+    {"id": "intl", "n": "ONG internacional", "j": "https://intl.org/jobs", "t": "Humanitario"},
 ]
 CFG = {"perfil": {"palabras_clave": ["Colombia", "remoto", "América Latina", "LAC", "ESG", "MEAL", "coordinador", "coordinadora"],
                   "excluir": ["pasante"]}, "terminos_portales_grandes": ["Colombia", "Remote"], "concurrencia": 4}
@@ -82,13 +89,14 @@ escena(1); e1 = motor.correr(CFG, ORGS, est, log=lambda *a: None); o1 = reportes
 print("\n== Corrida 1 ==", {k: e1["corridas"][-1][k] for k in ("ok", "errores", "omitidas", "linea_base", "nuevas")})
 escena(2); e2 = motor.correr(CFG, ORGS, est, log=lambda *a: None); o2 = reportes.generar(e2, ORGS, tmp, CFG)
 r = e2["corridas"][-1]
-print("== Corrida 2 ==", {k: r[k] for k in ("ok", "errores", "nuevas", "nuevas_coinciden", "fuera_ubicacion", "cerradas", "paginas_modificadas")})
+print("== Corrida 2 ==", {k: r[k] for k in ("ok", "errores", "nuevas", "nuevas_coinciden", "fuera_ubicacion", "fichas_abiertas", "fichas_rescatadas", "cerradas", "paginas_modificadas")})
 for o, v in o2["nuevas"]: print("   NUEVA:", o["n"], "|", v["titulo"], "| coincide:", v["coincide"])
 for oid, e in e2["orgs"].items(): print(f"   {oid:12} {e['estado']:9} {e.get('metodo',''):10} js={e.get('requiere_js')} nota={e.get('nota','')[:60]}")
 
-assert r["nuevas"] == 2, r                       # ESG (org. colombiana) y Coordinadora regional remota
-assert r["fuera_ubicacion"] == 1, r              # Data Analyst en Nairobi
-assert r["nuevas_coinciden"] == 2, r
+assert r["nuevas"] == 3, r                       # ESG (org. colombiana), Coordinadora remota y Program Manager (ficha: Bogotá)
+assert r["fuera_ubicacion"] == 2, r              # Data Analyst en Nairobi y Logistics Officer (ficha: Juba)
+assert r["fichas_abiertas"] == 2 and r["fichas_rescatadas"] == 1, r
+assert r["nuevas_coinciden"] == 3, r
 assert r["cerradas"] == 1, r                     # Country Director
 assert r["paginas_modificadas"] >= 1, r          # Fundación B cambió sin enlaces
 assert e2["orgs"]["spa"]["requiere_js"] is True

@@ -163,7 +163,7 @@ td a{{color:var(--ink)}}details{{margin-top:.5rem}}summary{{cursor:pointer;color
 <div class="kpi"><b>{res.get("fuera_ubicacion", 0)}</b><span>Nuevas descartadas por estar fuera de Colombia o sin ubicación</span></div>
 <div class="kpi"><b>{res["paginas_modificadas"]}</b><span>Páginas que cambiaron</span></div>
 <div class="kpi"><b>{res["errores"] + res["bloqueadas"]}</b><span>Con error o bloqueadas</span></div>
-</div>{base_msg}
+</div>{base_msg}{f'<div class="note" style="background:var(--gb);color:var(--g);border-color:rgba(42,99,72,.25)">Se abrió la ficha de {res.get("fichas_abiertas", 0)} vacantes nuevas que no decían dónde eran: {res.get("fichas_rescatadas", 0)} resultaron en Colombia o remotas y están incluidas abajo.</div>' if res.get("fichas_abiertas") else ""}
 <h2>Vacantes nuevas</h2>
 <div class="bar"><input id="q" placeholder="Filtrar por cargo u organización…"><label><input type="checkbox" id="m"> Solo las que coinciden con el perfil</label></div>
 <div id="list">{"".join(bloques) or '<div class="empty">No aparecieron vacantes nuevas en esta corrida.</div>'}</div>

@@ -12,6 +12,7 @@ from .extraer import clave, norm
 from .http import Bloqueada, Http
 from .lectores import leer, leer_render
 from . import ubicacion as ub
+from .ficha import leer_ficha, ubicacion_desde_ficha
 
 BOGOTA = timezone(timedelta(hours=-5))
 
@@ -98,6 +99,7 @@ def correr(cfg: dict, orgs: list[dict], ruta_estado: str, log=print) -> dict:
     # ── comparar con la corrida anterior ────────────────────────────────────
     resumen = {"fecha": hoy, "revisadas": 0, "ok": 0, "errores": 0, "omitidas": 0, "bloqueadas": 0,
                "nuevas": 0, "nuevas_coinciden": 0, "fuera_ubicacion": 0, "cerradas": 0, "linea_base": 0, "paginas_modificadas": 0}
+    pendientes_ficha: list[tuple[str, str]] = []
     for oid, res in resultados.items():
         prev = estado["orgs"].get(oid)
         e = prev or {"vacantes": {}}
@@ -134,7 +136,13 @@ def correr(cfg: dict, orgs: list[dict], ruta_estado: str, log=print) -> dict:
         for k, v in actuales.items():
             if k in e["vacantes"]:
                 old = e["vacantes"][k]
-                old.update({k2: v[k2] for k2 in ("titulo", "url", "lugar", "fecha", "coincide", "excluida", "ubicacion", "fuera") if v.get(k2) is not None})
+                campos = ["titulo", "url", "fecha", "coincide", "excluida"]
+                if v.get("lugar"):
+                    campos.append("lugar")
+                # si la ubicación salió de abrir la ficha, no la borra una lectura del listado que no la trae
+                if not (old.get("ficha") and v.get("ubicacion") == "sin_dato"):
+                    campos += ["ubicacion", "fuera"]
+                old.update({k2: v[k2] for k2 in campos if v.get(k2) is not None})
                 old["ultima_vez"] = hoy
                 old.pop("cerrada", None)
             else:
@@ -142,6 +150,8 @@ def correr(cfg: dict, orgs: list[dict], ruta_estado: str, log=print) -> dict:
                 e["vacantes"][k] = v
                 if primera:
                     resumen["linea_base"] += 1
+                elif v.get("ubicacion") == "sin_dato" and not v["excluida"] and cfg.get("abrir_fichas", True):
+                    pendientes_ficha.append((oid, k))  # se decide después de abrir la ficha
                 elif v.get("fuera"):
                     resumen["fuera_ubicacion"] += 1
                 elif not v["excluida"]:
@@ -157,6 +167,47 @@ def correr(cfg: dict, orgs: list[dict], ruta_estado: str, log=print) -> dict:
         e["vacantes"] = {k: v for k, v in e["vacantes"].items() if not v.get("cerrada") or v["cerrada"] >= limite}
         e["base_ok"] = True
         estado["orgs"][oid] = e
+
+    # ── segunda mirada: abrir la ficha de las vacantes nuevas sin ubicación ──
+    resumen["fichas_abiertas"] = resumen["fichas_rescatadas"] = 0
+    if pendientes_ficha:
+        maximo = cfg.get("maximo_fichas_por_corrida", 300)
+        log(f"Abriendo {min(len(pendientes_ficha), maximo)} fichas de vacantes nuevas sin ubicación…")
+        http2 = Http(cfg)
+
+        def mirar(par):
+            oid, k = par
+            v = estado["orgs"][oid]["vacantes"][k]
+            try:
+                f = leer_ficha(http2, v.get("url", ""))
+                return par, f, None
+            except Exception as e:  # noqa: BLE001
+                return par, None, e
+
+        with ThreadPoolExecutor(max_workers=cfg.get("concurrencia", 6)) as ex:
+            resultados_f = list(ex.map(mirar, pendientes_ficha[:maximo]))
+        http2.cerrar()
+        for (oid, k), f, err in resultados_f + [((o, k), None, None) for o, k in pendientes_ficha[maximo:]]:
+            v = estado["orgs"][oid]["vacantes"][k]
+            if f is not None:
+                resumen["fichas_abiertas"] += 1
+                u = ubicacion_desde_ficha(f, reglas)
+                v["ficha"] = True
+                if f.get("lugar"):
+                    v["lugar"] = f["lugar"]
+                if u != "sin_dato":
+                    v["ubicacion"] = u
+                    v["fuera"] = not ub.permitida(u, reglas)
+                    if not v["fuera"]:
+                        resumen["fichas_rescatadas"] += 1
+                        clasificar(v, perfil)  # recalcula coincidencias con el lugar encontrado
+            if v.get("fuera", True):
+                resumen["fuera_ubicacion"] += 1
+            else:
+                resumen["nuevas"] += 1
+                if v.get("coincide"):
+                    resumen["nuevas_coinciden"] += 1
+        log(f"  {resumen['fichas_rescatadas']} confirmadas en Colombia o remoto al abrir su ficha.")
 
     estado["corridas"] = (estado.get("corridas", []) + [resumen])[-90:]
     estado["ultima_corrida"] = hoy
