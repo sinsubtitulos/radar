@@ -563,7 +563,7 @@
  {
   "id": "corporacion-pan",
   "n": "Corporación PAN",
-  "j": "",
+  "j": "https://corporacionpan.org/",
   "t": "Filantropía",
   "afe": true
  },
@@ -910,7 +910,7 @@
  {
   "id": "fudoc",
   "n": "FUDOC",
-  "j": "",
+  "j": "https://www.fudoc.com.co/",
   "t": "Filantropía",
   "afe": true
  },
@@ -946,9 +946,10 @@
  {
   "id": "fundacion-agricola-himalaya",
   "n": "Fundación Agrícola Himalaya",
-  "j": "",
+  "j": "https://agricolahimalaya.com/",
   "t": "Filantropía",
-  "afe": true
+  "afe": true,
+  "filtro": "corporativo"
  },
  {
   "id": "fundacion-alejandro-angel-escobar",
@@ -967,14 +968,15 @@
  {
   "id": "fundacion-alqueria-cavelier",
   "n": "Fundación Alquería Cavelier",
-  "j": "",
+  "j": "https://www.alqueria.com.co/conocenos",
   "t": "Filantropía",
-  "afe": true
+  "afe": true,
+  "filtro": "corporativo"
  },
  {
   "id": "fundacion-alvaralice",
   "n": "Fundación Alvaralice",
-  "j": "",
+  "j": "https://co.linkedin.com/company/fundaci%C3%B3n-alvaralice",
   "t": "Filantropía",
   "afe": true
  },
@@ -988,28 +990,29 @@
  {
   "id": "fundacion-aprender-a-quererte",
   "n": "Fundación Aprender a Quererte",
-  "j": "",
+  "j": "https://co.linkedin.com/company/fundaci%C3%B3n-aprender-a-quererte",
   "t": "Filantropía",
   "afe": true
  },
  {
   "id": "fundacion-arturo-calle",
   "n": "Fundación Arturo Calle",
-  "j": "",
+  "j": "https://www.arturocalle.com/",
   "t": "Filantropía",
-  "afe": true
+  "afe": true,
+  "filtro": "corporativo"
  },
  {
   "id": "fundacion-arturo-sesana",
   "n": "Fundación Arturo Sesana",
-  "j": "",
+  "j": "https://co.linkedin.com/company/fundaci%C3%B3n-sesana",
   "t": "Filantropía",
   "afe": true
  },
  {
   "id": "fundacion-aurelio-llano",
   "n": "Fundación Aurelio Llano",
-  "j": "",
+  "j": "https://co.linkedin.com/company/fundaci%C3%B3n-aurelio-llano-posada",
   "t": "Filantropía",
   "afe": true
  },
@@ -1024,9 +1027,10 @@
  {
   "id": "fundacion-bancolombia",
   "n": "Fundación Bancolombia",
-  "j": "",
+  "j": "https://www.bancolombia.com/acerca-de/trabaja-con-nosotros",
   "t": "Filantropía",
-  "afe": true
+  "afe": true,
+  "filtro": "corporativo"
  },
  {
   "id": "fundacion-barco",
@@ -1054,16 +1058,17 @@
  {
   "id": "fundacion-berta-martinez",
   "n": "Fundación Berta Martínez",
-  "j": "",
+  "j": "https://bertamartinez.org/",
   "t": "Filantropía",
   "afe": true
  },
  {
   "id": "fundacion-bolivar-davivienda",
   "n": "Fundación Bolívar Davivienda",
-  "j": "",
+  "j": "https://www.magneto365.com/co/empresas/grupo-bolivar",
   "t": "Filantropía",
-  "afe": true
+  "afe": true,
+  "filtro": "corporativo"
  },
  {
   "id": "fundacion-caicedo-gonzalez-riopaila-castilla",
@@ -1075,7 +1080,7 @@
  {
   "id": "fundacion-carlos-vallecilla-borrero",
   "n": "Fundación Carlos Vallecilla Borrero",
-  "j": "",
+  "j": "https://fundacioncvb.org/",
   "t": "Filantropía",
   "afe": true
  },
@@ -1096,9 +1101,10 @@
  {
   "id": "fundacion-colombina",
   "n": "Fundación Colombina",
-  "j": "",
+  "j": "https://www.colombina.com/",
   "t": "Filantropía",
-  "afe": true
+  "afe": true,
+  "filtro": "corporativo"
  },
  {
   "id": "fundacion-coomeva",
@@ -1111,63 +1117,65 @@
  {
   "id": "fundacion-corazon-de-cana",
   "n": "Fundación Corazón de Caña",
-  "j": "",
+  "j": "https://corazondecana.com/fundacion/",
   "t": "Filantropía",
   "afe": true
  },
  {
   "id": "fundacion-corficolombiana",
   "n": "Fundación Corficolombiana",
-  "j": "",
+  "j": "https://www.fundacioncorfi.com/",
   "t": "Filantropía",
   "afe": true
  },
  {
   "id": "fundacion-corona",
   "n": "Fundación Corona",
-  "j": "",
+  "j": "https://www.fundacioncorona.org/",
   "t": "Filantropía",
   "afe": true
  },
  {
   "id": "fundacion-fanalca",
   "n": "Fundación Fanalca",
-  "j": "",
+  "j": "https://empleoscolombia.fnservicios.com/",
   "t": "Filantropía",
-  "afe": true
+  "afe": true,
+  "filtro": "corporativo"
  },
  {
   "id": "fundacion-fomenta",
   "n": "Fundación Fomenta",
-  "j": "",
+  "j": "https://co.linkedin.com/company/fundacion-fomenta",
   "t": "Filantropía",
   "afe": true
  },
  {
   "id": "fundacion-fraternidad-medellin",
   "n": "Fundación Fraternidad Medellín",
-  "j": "",
+  "j": "https://co.linkedin.com/in/fraternidad-medell%C3%ADn-fundaci%C3%B3n-892502266",
   "t": "Filantropía",
   "afe": true
  },
  {
   "id": "fundacion-frisby",
   "n": "Fundación Frisby",
-  "j": "",
+  "j": "https://www.fundacionfrisby.org/",
   "t": "Filantropía",
   "afe": true
  },
  {
   "id": "fundacion-gascaribe",
   "n": "Fundación Gascaribe",
-  "j": "",
+  "j": "https://www.gascaribe.com/",
   "t": "Filantropía",
-  "afe": true
+  "afe": true,
+  "filtro": "corporativo"
  },
  {
   "id": "fundacion-greenland",
   "n": "Fundación Greenland",
-  "j": "",
+  "j": "https://fundaciongreenland.org/",
   "t": "Filantropía",
   "afe": true
  },
@@ -1197,14 +1205,14 @@
  {
   "id": "fundacion-grupo-social",
   "n": "Fundación Grupo Social",
-  "j": "",
+  "j": "https://www.fundaciongruposocial.co/",
   "t": "Filantropía",
   "afe": true
  },
  {
   "id": "fundacion-haceb",
   "n": "Fundación Haceb",
-  "j": "",
+  "j": "https://co.linkedin.com/showcase/fundacionhaceb/",
   "t": "Filantropía",
   "afe": true
  },
@@ -1226,23 +1234,25 @@
  {
   "id": "fundacion-keralty",
   "n": "Fundación Keralty",
-  "j": "",
+  "j": "https://uneteakeralty.keralty.com/",
   "t": "Filantropía",
-  "afe": true
+  "afe": true,
+  "filtro": "corporativo"
  },
  {
   "id": "fundacion-la-cayena",
   "n": "Fundación La Cayena",
-  "j": "",
+  "j": "https://www.linkedin.com/company/fundacion-la-cayena",
   "t": "Filantropía",
   "afe": true
  },
  {
   "id": "fundacion-levapan",
   "n": "Fundación Levapan",
-  "j": "",
+  "j": "https://www.levapan.com/",
   "t": "Filantropía",
-  "afe": true
+  "afe": true,
+  "filtro": "corporativo"
  },
  {
   "id": "fundacion-llevando-esperanza",
@@ -1254,14 +1264,14 @@
  {
   "id": "fundacion-luker",
   "n": "Fundación Luker",
-  "j": "",
+  "j": "https://www.linkedin.com/company/fundaci%C3%B3n-luker",
   "t": "Filantropía",
   "afe": true
  },
  {
   "id": "fundacion-mayaguez",
   "n": "Fundación Mayagüez",
-  "j": "",
+  "j": "https://co.linkedin.com/in/vivi-calderon-99671a319",
   "t": "Filantropía",
   "afe": true
  },
@@ -1275,7 +1285,7 @@
  {
   "id": "fundacion-mineros",
   "n": "Fundación Mineros",
-  "j": "",
+  "j": "https://www.mineros.com.co/es-co/sostenibilidad/fundacion",
   "t": "Filantropía",
   "afe": true
  },
@@ -1316,7 +1326,7 @@
  {
   "id": "fundacion-otero-lievano",
   "n": "Fundación Otero Liévano",
-  "j": "",
+  "j": "https://co.linkedin.com/company/fundacion-otero-lievano",
   "t": "Filantropía",
   "afe": true
  },
@@ -1368,7 +1378,7 @@
  {
   "id": "fundacion-propal",
   "n": "Fundación Propal",
-  "j": "",
+  "j": "https://co.linkedin.com/company/fundaci%C3%B3n-propal",
   "t": "Filantropía",
   "afe": true
  },
@@ -1383,28 +1393,28 @@
  {
   "id": "fundacion-quironsalud-colombia",
   "n": "Fundación Quirónsalud Colombia",
-  "j": "",
+  "j": "https://www.imbanaco.com/es_CO/fundacion-quironsalud-colombia",
   "t": "Filantropía",
   "afe": true
  },
  {
   "id": "fundacion-ramirez-moreno",
   "n": "Fundación Ramírez Moreno",
-  "j": "",
+  "j": "https://co.linkedin.com/company/fundaci%C3%B3n-ram%C3%ADrez-moreno",
   "t": "Filantropía",
   "afe": true
  },
  {
   "id": "fundacion-saldarriaga-concha",
   "n": "Fundación Saldarriaga Concha",
-  "j": "",
+  "j": "https://www.linkedin.com/company/fundacionsaldarriagaconcha",
   "t": "Filantropía",
   "afe": true
  },
  {
   "id": "fundacion-santa-isabel",
   "n": "Fundación Santa Isabel",
-  "j": "",
+  "j": "https://fundacionsantaisabel.net/convocatorias/",
   "t": "Filantropía",
   "afe": true
  },
@@ -1418,21 +1428,21 @@
  {
   "id": "fundacion-scarpetta-gnecco",
   "n": "Fundación Scarpetta Gnecco",
-  "j": "",
+  "j": "https://co.linkedin.com/company/fundaci%C3%B3n-scarpetta-gnecco",
   "t": "Filantropía",
   "afe": true
  },
  {
   "id": "fundacion-secretos-para-contar",
   "n": "Fundación Secretos para Contar",
-  "j": "",
+  "j": "https://secretosparacontar.org/",
   "t": "Filantropía",
   "afe": true
  },
  {
   "id": "fundacion-serena-del-mar",
   "n": "Fundación Serena del Mar",
-  "j": "",
+  "j": "https://co.linkedin.com/company/fundacion-serena-del-mar",
   "t": "Filantropía",
   "afe": true
  },
@@ -1461,49 +1471,52 @@
  {
   "id": "fundacion-sofia-perez-de-soto",
   "n": "Fundación Sofía Pérez de Soto",
-  "j": "",
+  "j": "https://fundacionsofiaperez.org/colaboraciones-y-oportunidades/",
   "t": "Filantropía",
   "afe": true
  },
  {
   "id": "fundacion-sura",
   "n": "Fundación Sura",
-  "j": "",
+  "j": "https://www.gruposura.com/",
   "t": "Filantropía",
-  "afe": true
+  "afe": true,
+  "filtro": "corporativo"
  },
  {
   "id": "fundacion-telefonica-movistar",
   "n": "Fundación Telefónica Movistar",
-  "j": "",
+  "j": "https://www.linkedin.com/company/fundacion-telefonica-colombia/",
   "t": "Filantropía",
   "afe": true
  },
  {
   "id": "fundacion-terpel",
   "n": "Fundación Terpel",
-  "j": "",
+  "j": "https://trabajos.terpel.com/",
   "t": "Filantropía",
-  "afe": true
+  "afe": true,
+  "filtro": "corporativo"
  },
  {
   "id": "fundacion-texmodas",
   "n": "Fundación Texmodas",
-  "j": "",
+  "j": "https://tradealliancecorporation.com/vacantes/",
   "t": "Filantropía",
-  "afe": true
+  "afe": true,
+  "filtro": "corporativo"
  },
  {
   "id": "fundacion-tras-la-perla",
   "n": "Fundación Tras la Perla",
-  "j": "",
+  "j": "https://traslaperla.org/",
   "t": "Filantropía",
   "afe": true
  },
  {
   "id": "fundacion-uniban",
   "n": "Fundación Uniban",
-  "j": "",
+  "j": "https://www.fundauniban.org.co/",
   "t": "Filantropía",
   "afe": true
  },
@@ -1517,21 +1530,21 @@
  {
   "id": "fundacion-wwb-colombia",
   "n": "Fundación WWB Colombia",
-  "j": "",
+  "j": "https://co.computrabajo.com/empresas/ofertas-de-trabajo-de-fundacion-wwb-colombia-E2E0237C29D4C056",
   "t": "Filantropía",
   "afe": true
  },
  {
   "id": "fundacion-zoraida",
   "n": "Fundación Zoraida",
-  "j": "",
+  "j": "https://oportunidades.fundacionzoraida.org/oportunidades/empleo",
   "t": "Filantropía",
   "afe": true
  },
  {
   "id": "fundeban",
   "n": "Fundeban",
-  "j": "",
+  "j": "https://fundeban.com/",
   "t": "Filantropía",
   "afe": true
  },
@@ -1720,7 +1733,7 @@
  {
   "id": "ic-fundacion",
   "n": "iC Fundación",
-  "j": "",
+  "j": "https://icfundacion.com/",
   "t": "Filantropía",
   "afe": true
  },
@@ -1805,7 +1818,7 @@
  {
   "id": "inmensamente",
   "n": "Inmensamente",
-  "j": "",
+  "j": "https://inmensamente.org/",
   "t": "Filantropía",
   "afe": true
  },
