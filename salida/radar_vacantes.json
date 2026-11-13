@@ -1,11 +1,11 @@
 {
  "app": "progresso-radar-vigia",
- "generado": "2026-11-12 13:58",
+ "generado": "2026-11-13 13:33",
  "dias_como_nueva": 7,
  "orgs": {
   "60-decibels": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": false,
@@ -14,7 +14,7 @@
   },
   "accion": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 1,
    "pagina_cambio": true,
@@ -29,7 +29,7 @@
   },
   "80000-hours": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": false,
@@ -38,7 +38,7 @@
   },
   "acled": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": false,
@@ -47,28 +47,11 @@
   },
   "acceso": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 4,
    "pagina_cambio": true,
-   "nuevas": [
-    {
-     "t": "Development Manager",
-     "u": "https://acceso.org/jobs/development-manager",
-     "l": "Remoto",
-     "f": "2026-11-05",
-     "c": []
-    },
-    {
-     "t": "Communications Coordinator",
-     "u": "https://acceso.org/jobs/communications-coordinator",
-     "l": "Colombia",
-     "f": "2026-11-05",
-     "c": [
-      "coordinator"
-     ]
-    }
-   ],
+   "nuevas": [],
    "lista": [
     {
      "t": "Representante de Ventas | Vendedor TAT",
@@ -94,7 +77,7 @@
   },
   "350": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": false,
@@ -103,7 +86,7 @@
   },
   "accion-contra-el-hambre": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": true,
@@ -112,7 +95,7 @@
   },
   "acdi-voca": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": true,
@@ -121,7 +104,7 @@
   },
   "3is": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": false,
@@ -130,7 +113,7 @@
   },
   "african-wildlife-foundation": {
    "estado": "bloqueada",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "robots.txt no permite rastrear esta página",
    "activas": 0,
    "pagina_cambio": false,
@@ -139,7 +122,7 @@
   },
   "actionaid": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": false,
@@ -148,7 +131,7 @@
   },
   "acumen": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": false,
@@ -157,7 +140,7 @@
   },
   "aeiotu": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 2,
    "pagina_cambio": true,
@@ -177,7 +160,7 @@
   },
   "agata-data-agencia-analitica-de-datos": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 6,
    "pagina_cambio": false,
@@ -217,7 +200,7 @@
   },
   "aida-americas": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": false,
@@ -226,7 +209,7 @@
   },
   "alianza-educativa": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 4,
    "pagina_cambio": true,
@@ -256,7 +239,7 @@
   },
   "act-alliance": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": false,
@@ -265,7 +248,7 @@
   },
   "aldeas-infantiles": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 1,
    "pagina_cambio": true,
@@ -288,7 +271,7 @@
   },
   "alinea": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": true,
@@ -297,7 +280,7 @@
   },
   "alianza-por-la-solidaridad-action-aid-colombia": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": false,
@@ -306,7 +289,7 @@
   },
   "alianza-francesa": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": false,
@@ -315,7 +298,7 @@
   },
   "acting-for-life": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": false,
@@ -324,7 +307,7 @@
   },
   "amazon-conservation": {
    "estado": "error",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "HTTPError: 403 Client Error: Forbidden for url: https://www.amazonconservation.org/about/careers-internships/",
    "activas": 0,
    "pagina_cambio": false,
@@ -333,7 +316,7 @@
   },
   "alliance-bioversity-ciat": {
    "estado": "error",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "HTTPError: 403 Client Error: Forbidden for url: https://alliancebioversityciat.org/es/carreras",
    "activas": 0,
    "pagina_cambio": false,
@@ -342,7 +325,7 @@
   },
   "americares": {
    "estado": "error",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "HTTPError: 403 Client Error: Forbidden for url: https://www.americares.org/take-action/jobs/#1",
    "activas": 0,
    "pagina_cambio": false,
@@ -351,7 +334,7 @@
   },
   "amigos-de-la-tierra-internacional": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": false,
@@ -360,7 +343,7 @@
   },
   "agencia-italiana-de-cooperacion-para-el-desarrollo-aics": {
    "estado": "error",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "HTTPError: 428 Client Error: Precondition Required for url: https://trasparenzabogota.aics.gov.it/index.php?id_sezione=806&id_cat=0",
    "activas": 14,
    "pagina_cambio": false,
@@ -440,7 +423,7 @@
   },
   "agencia-de-cooperacion-internacional-de-medellin": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 2,
    "pagina_cambio": true,
@@ -460,7 +443,7 @@
   },
   "amazon-watch": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": false,
@@ -469,7 +452,7 @@
   },
   "aspen-institute": {
    "estado": "error",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "HTTPError: 403 Client Error: Forbidden for url: https://www.aspeninstitute.org/careers/career-opportunities/",
    "activas": 0,
    "pagina_cambio": false,
@@ -478,7 +461,7 @@
   },
   "ayuda-en-accion": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": true,
@@ -487,7 +470,7 @@
   },
   "alliance-for-responsible-mining-arm": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": false,
@@ -496,7 +479,7 @@
   },
   "banco-de-la-republica": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 2,
    "pagina_cambio": true,
@@ -516,7 +499,7 @@
   },
   "banco-interamericano-de-desarrollo-bid": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": false,
@@ -525,7 +508,7 @@
   },
   "aspen-network-of-development-entrepreneurs": {
    "estado": "error",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "HTTPError: 403 Client Error: Forbidden for url: https://www.aspeninstitute.org/programs/aspen-network-development-entrepreneurs/",
    "activas": 0,
    "pagina_cambio": false,
@@ -534,7 +517,7 @@
   },
   "banyan-global": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": false,
@@ -543,7 +526,7 @@
   },
   "becas-y-convocatorias": {
    "estado": "error",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
    "activas": 0,
    "pagina_cambio": false,
@@ -552,7 +535,7 @@
   },
   "bridge-for-billions": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": true,
@@ -561,7 +544,7 @@
   },
   "british-council": {
    "estado": "bloqueada",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "robots.txt no permite rastrear esta página",
    "activas": 0,
    "pagina_cambio": false,
@@ -570,7 +553,7 @@
   },
   "building-bridges": {
    "estado": "omitida",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "Sin página de vacantes en el radar",
    "activas": 0,
    "pagina_cambio": false,
@@ -579,7 +562,7 @@
   },
   "business-and-human-rights-centre": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": false,
@@ -588,7 +571,7 @@
   },
   "birdlife-international": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": false,
@@ -597,7 +580,7 @@
   },
   "cadena": {
    "estado": "omitida",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "Sin página de vacantes en el radar",
    "activas": 0,
    "pagina_cambio": false,
@@ -606,7 +589,7 @@
   },
   "ayuda-en-accion-colombia": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 1,
    "pagina_cambio": false,
@@ -621,7 +604,7 @@
   },
   "c40-cities": {
    "estado": "error",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "HTTPError: 403 Client Error: Forbidden for url: https://www.c40.org/work-with-c40/",
    "activas": 0,
    "pagina_cambio": false,
@@ -630,7 +613,7 @@
   },
   "campana-colombiana-contra-las-minas": {
    "estado": "bloqueada",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "robots.txt no permite rastrear esta página",
    "activas": 0,
    "pagina_cambio": false,
@@ -639,7 +622,7 @@
   },
   "biblored": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": false,
@@ -648,7 +631,7 @@
   },
   "care": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": false,
@@ -657,23 +640,16 @@
   },
   "care-colombia": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
-   "activas": 2,
+   "activas": 3,
    "pagina_cambio": true,
    "nuevas": [
     {
-     "t": "Coordinación de Compras y Logística",
-     "u": "https://carecolombiaong.org/trabajo/coordinacion-de-compras-y-logistica",
+     "t": "Oficial Contable",
+     "u": "https://carecolombiaong.org/trabajo/oficial-contable",
      "l": "Colombia",
-     "f": "2026-11-05",
-     "c": []
-    },
-    {
-     "t": "Oficial Financiero",
-     "u": "https://carecolombiaong.org/trabajo/oficial-financiero",
-     "l": "Colombia",
-     "f": "2026-11-05",
+     "f": "2026-11-13",
      "c": []
     }
    ],
@@ -687,12 +663,17 @@
      "t": "Oficial Financiero",
      "u": "https://carecolombiaong.org/trabajo/oficial-financiero",
      "l": "Colombia"
+    },
+    {
+     "t": "Oficial Contable",
+     "u": "https://carecolombiaong.org/trabajo/oficial-contable",
+     "l": "Colombia"
     }
    ]
   },
   "calp-network": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": true,
@@ -701,7 +682,7 @@
   },
   "careers4change": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 1,
    "pagina_cambio": true,
@@ -716,7 +697,7 @@
   },
   "caritas-colombiana": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 2,
    "pagina_cambio": false,
@@ -736,7 +717,7 @@
   },
   "center-for-international-private-enterprise-cipe": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": false,
@@ -745,7 +726,7 @@
   },
   "careers-job-international": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 9,
    "pagina_cambio": false,
@@ -800,7 +781,7 @@
   },
   "center-for-reproductive-rights": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": false,
@@ -809,7 +790,7 @@
   },
   "center-for-justice-and-international-law-cejil": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": false,
@@ -818,11 +799,21 @@
   },
   "american-red-cross": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
-   "activas": 1,
+   "activas": 2,
    "pagina_cambio": false,
    "nuevas": [
+    {
+     "t": "Hemovigilance Program Manager/Remote Opportunity",
+     "u": "https://americanredcross.wd1.myworkdayjobs.com/American_Red_Cross_Careers/job/Douglasville-GA/Hemovigilance-Program-Manager-Remote-Opportunity_RC92343",
+     "l": "Douglasville, GA",
+     "f": "2026-11-13",
+     "c": [
+      "remote",
+      "program manager"
+     ]
+    },
     {
      "t": "National Partnership Manager - Work From Home",
      "u": "https://americanredcross.wd1.myworkdayjobs.com/American_Red_Cross_Careers/job/Statewide-CA/National-Partnership-Manager---Work-From-Home_RC92451",
@@ -836,15 +827,20 @@
      "t": "National Partnership Manager - Work From Home",
      "u": "https://americanredcross.wd1.myworkdayjobs.com/American_Red_Cross_Careers/job/Statewide-CA/National-Partnership-Manager---Work-From-Home_RC92451",
      "l": "6 Locations"
+    },
+    {
+     "t": "Hemovigilance Program Manager/Remote Opportunity",
+     "u": "https://americanredcross.wd1.myworkdayjobs.com/American_Red_Cross_Careers/job/Douglasville-GA/Hemovigilance-Program-Manager-Remote-Opportunity_RC92343",
+     "l": "Douglasville, GA"
     }
    ]
   },
   "avina": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 1,
-   "pagina_cambio": false,
+   "pagina_cambio": true,
    "nuevas": [],
    "lista": [
     {
@@ -856,7 +852,7 @@
   },
   "change-org": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": false,
@@ -865,7 +861,7 @@
   },
   "centro-de-estudios-de-justicia-de-las-americas-ceja": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": true,
@@ -874,7 +870,7 @@
   },
   "cepal": {
    "estado": "error",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "HTTPError: 403 Client Error: Forbidden for url: https://www.cepal.org/es/oportunidades-empleo",
    "activas": 0,
    "pagina_cambio": false,
@@ -883,7 +879,7 @@
   },
   "chemonics": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": false,
@@ -892,16 +888,30 @@
   },
   "charityjob": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
-   "activas": 0,
+   "activas": 1,
    "pagina_cambio": true,
-   "nuevas": [],
-   "lista": []
+   "nuevas": [
+    {
+     "t": "Social Action Development Officer",
+     "u": "https://www.charityjob.co.uk/jobs/rnib/social-action-development-officer/1090958",
+     "l": "Remoto",
+     "f": "2026-11-13",
+     "c": []
+    }
+   ],
+   "lista": [
+    {
+     "t": "Social Action Development Officer",
+     "u": "https://www.charityjob.co.uk/jobs/rnib/social-action-development-officer/1090958",
+     "l": "Remoto"
+    }
+   ]
   },
   "child-rights-international-network-crin": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": false,
@@ -910,7 +920,7 @@
   },
   "cesvi": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": true,
@@ -919,7 +929,7 @@
   },
   "ciudad-del-saber": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": false,
@@ -928,7 +938,7 @@
   },
   "children-change": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": false,
@@ -937,7 +947,7 @@
   },
   "cidemos": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 3,
    "pagina_cambio": false,
@@ -962,7 +972,7 @@
   },
   "clima-e-sociedade": {
    "estado": "omitida",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "Sin página de vacantes en el radar",
    "activas": 0,
    "pagina_cambio": false,
@@ -971,7 +981,7 @@
   },
   "civil-rights-defenders": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": false,
@@ -980,7 +990,7 @@
   },
   "cicr-colombia": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": true,
@@ -989,7 +999,7 @@
   },
   "climatebase": {
    "estado": "error",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "HTTPError: 403 Client Error: Forbidden for url: https://climatebase.org/jobs",
    "activas": 0,
    "pagina_cambio": false,
@@ -998,7 +1008,7 @@
   },
   "climate-group": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": false,
@@ -1007,7 +1017,7 @@
   },
   "climate-and-development-knowledge-network": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": false,
@@ -1016,7 +1026,7 @@
   },
   "committed-to-good": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": false,
@@ -1024,9 +1034,9 @@
    "lista": []
   },
   "comision-humanitaria-de-derechos-humanos": {
-   "estado": "error",
-   "revision": "2026-11-12 13:58",
-   "nota": "HTTPError: 403 Client Error: Forbidden for url: https://www.oas.org/es/CIDH/jsForm/?File=/es/cidh/empleos/empleos.asp",
+   "estado": "ok",
+   "revision": "2026-11-13 13:33",
+   "nota": "",
    "activas": 0,
    "pagina_cambio": false,
    "nuevas": [],
@@ -1034,7 +1044,7 @@
   },
   "club-de-fundraising": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": false,
@@ -1043,7 +1053,7 @@
   },
   "consejo-noruego-de-refugiados": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": true,
@@ -1052,7 +1062,7 @@
   },
   "conciliation-resources": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": false,
@@ -1061,7 +1071,7 @@
   },
   "conservation-careers": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 2,
    "pagina_cambio": true,
@@ -1096,7 +1106,7 @@
   },
   "conservacion-internacional-colombia": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": false,
@@ -1105,7 +1115,7 @@
   },
   "conservation-international": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": false,
@@ -1114,7 +1124,7 @@
   },
   "clac-comercio-justo": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": false,
@@ -1123,7 +1133,7 @@
   },
   "cooperacion-convocatorias-y-demas": {
    "estado": "omitida",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "Red social o grupo (no se rastrea; revisar manualmente)",
    "activas": 0,
    "pagina_cambio": false,
@@ -1132,7 +1142,7 @@
   },
   "consejo-privado-de-competitividad": {
    "estado": "omitida",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "Sin página de vacantes en el radar",
    "activas": 0,
    "pagina_cambio": false,
@@ -1141,7 +1151,7 @@
   },
   "convergence": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": true,
@@ -1150,17 +1160,12 @@
   },
   "control-risks": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
-   "activas": 2,
+   "activas": 1,
    "pagina_cambio": false,
    "nuevas": [],
    "lista": [
-    {
-     "t": "Associate Director, Embedded Consulting",
-     "u": "https://apply.workable.com/j/13B8283C53",
-     "l": "Bogotá, Colombia"
-    },
     {
      "t": "Consultant - Forensic Accountant",
      "u": "https://apply.workable.com/j/C6D073FFCE",
@@ -1170,7 +1175,7 @@
   },
   "corporacion-pan": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": false,
@@ -1179,19 +1184,11 @@
   },
   "corporacion-interactuar": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 1,
    "pagina_cambio": true,
-   "nuevas": [
-    {
-     "t": "Docente Consultor Urabá",
-     "u": "https://corporacion-interactuar.pandape.computrabajo.com/Detail/14081099",
-     "l": "Colombia",
-     "f": "2026-11-05",
-     "c": []
-    }
-   ],
+   "nuevas": [],
    "lista": [
     {
      "t": "Docente Consultor Urabá",
@@ -1202,7 +1199,7 @@
   },
   "corprogreso": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": true,
@@ -1211,7 +1208,7 @@
   },
   "coopi": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": true,
@@ -1220,7 +1217,7 @@
   },
   "counterpart-international": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": false,
@@ -1229,7 +1226,7 @@
   },
   "creative-associates-international": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 3,
    "pagina_cambio": true,
@@ -1269,7 +1266,7 @@
   },
   "critertec": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 8,
    "pagina_cambio": false,
@@ -1319,7 +1316,7 @@
   },
   "cuso": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": false,
@@ -1328,7 +1325,7 @@
   },
   "corus-international": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 1,
    "pagina_cambio": true,
@@ -1354,7 +1351,7 @@
   },
   "dai": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": true,
@@ -1363,7 +1360,7 @@
   },
   "dalberg": {
    "estado": "bloqueada",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "robots.txt no permite rastrear esta página",
    "activas": 0,
    "pagina_cambio": false,
@@ -1372,7 +1369,7 @@
   },
   "courier-newsroom": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "Lector bamboohr falló (JSONDecodeError); se usó el detector genérico.",
    "activas": 0,
    "pagina_cambio": false,
@@ -1381,7 +1378,7 @@
   },
   "danish-refugee-council": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": true,
@@ -1390,7 +1387,7 @@
   },
   "coopermundo": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": true,
@@ -1399,7 +1396,7 @@
   },
   "danish-institute-for-human-rights": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": false,
@@ -1408,7 +1405,7 @@
   },
   "delivery-associates": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 1,
    "pagina_cambio": true,
@@ -1423,7 +1420,7 @@
   },
   "caf-banco-de-desarrollo": {
    "estado": "error",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "SSLError: HTTPSConnectionPool(host='www.caf.com', port=443): Max retries exceeded with url: /es/trabaja-con-nosotros/empleo/ (Caused by SSLError(SSLCertVerificationError(",
    "activas": 0,
    "pagina_cambio": false,
@@ -1432,7 +1429,7 @@
   },
   "defensoria-del-pueblo": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": true,
@@ -1441,7 +1438,7 @@
   },
   "democracy-jobs": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 2,
    "pagina_cambio": true,
@@ -1461,7 +1458,7 @@
   },
   "developmentaid": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": false,
@@ -1470,7 +1467,7 @@
   },
   "devex": {
    "estado": "error",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "HTTPError: 403 Client Error: Forbidden for url: https://www.devex.com/jobs",
    "activas": 0,
    "pagina_cambio": false,
@@ -1479,7 +1476,7 @@
   },
   "devtech": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": false,
@@ -1488,7 +1485,7 @@
   },
   "diakonia": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": false,
@@ -1497,7 +1494,7 @@
   },
   "care-ecuador": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": false,
@@ -1506,7 +1503,7 @@
   },
   "dejusticia": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 1,
    "pagina_cambio": true,
@@ -1521,7 +1518,7 @@
   },
   "de-mis-manos": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": false,
@@ -1530,7 +1527,7 @@
   },
   "diagram-consultores": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": true,
@@ -1539,7 +1536,7 @@
   },
   "dt-global": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 1,
    "pagina_cambio": true,
@@ -1554,7 +1551,7 @@
   },
   "echoing-green": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": true,
@@ -1563,7 +1560,7 @@
   },
   "ecopetrol": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": false,
@@ -1572,7 +1569,7 @@
   },
   "education-for-employment": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": false,
@@ -1581,7 +1578,7 @@
   },
   "educo": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": false,
@@ -1590,7 +1587,7 @@
   },
   "embajada-de-canada-en-colombia": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": false,
@@ -1599,7 +1596,7 @@
   },
   "embajada-britanica-en-colombia": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": true,
@@ -1608,7 +1605,7 @@
   },
   "drugs-for-neglected-diseases-initiative-dndi": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": false,
@@ -1617,7 +1614,7 @@
   },
   "embajada-de-irlanda-en-colombia": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": false,
@@ -1626,7 +1623,7 @@
   },
   "embajada-de-noruega-en-colombia": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": false,
@@ -1635,7 +1632,7 @@
   },
   "embajada-de-dinamarca-en-colombia": {
    "estado": "error",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "HTTPError: 520 Server Error: <none> for url: https://colombia.um.dk/es/sobre-nosotros/jobs",
    "activas": 0,
    "pagina_cambio": false,
@@ -1644,7 +1641,7 @@
   },
   "embajada-del-reino-de-los-paises-bajos-en-colombia": {
    "estado": "omitida",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "Red social o grupo (no se rastrea; revisar manualmente)",
    "activas": 0,
    "pagina_cambio": false,
@@ -1653,7 +1650,7 @@
   },
   "embajada-de-suecia-en-colombia": {
    "estado": "error",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "HTTPError: 403 Client Error: Forbidden for url: https://www.swedenabroad.se/es/embajada/colombia-bogot%C3%A1/sobre-nosotros/trabaja-con-nosotros/",
    "activas": 0,
    "pagina_cambio": false,
@@ -1662,7 +1659,7 @@
   },
   "embajada-suiza-en-colombia": {
    "estado": "error",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "HTTPError: 403 Client Error: Forbidden for url: https://www.eda.admin.ch/countries/colombia/es/home/noticias/puestos-vacantes.html",
    "activas": 0,
    "pagina_cambio": false,
@@ -1671,7 +1668,7 @@
   },
   "ethos-atlas": {
    "estado": "omitida",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "Sin página de vacantes en el radar",
    "activas": 0,
    "pagina_cambio": false,
@@ -1680,7 +1677,7 @@
   },
   "embajada-de-australia-en-bogota": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": false,
@@ -1689,7 +1686,7 @@
   },
   "euro-brussels": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": true,
@@ -1698,7 +1695,7 @@
   },
   "everyday-peace-indicators": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": false,
@@ -1707,7 +1704,7 @@
   },
   "european-partnership-for-democracy-epd": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": true,
@@ -1716,7 +1713,7 @@
   },
   "expertise-france": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": false,
@@ -1725,7 +1722,7 @@
   },
   "embajada-de-francia-en-colombia": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": true,
@@ -1734,7 +1731,7 @@
   },
   "fao": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": false,
@@ -1743,7 +1740,7 @@
   },
   "desjardins": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 2,
    "pagina_cambio": false,
@@ -1773,7 +1770,7 @@
   },
   "federacion-nacional-de-cacaoteros-fedecacao": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 7,
    "pagina_cambio": true,
@@ -1828,7 +1825,7 @@
   },
   "equilibrium": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": false,
@@ -1837,7 +1834,7 @@
   },
   "extinction-rebellion": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": false,
@@ -1846,7 +1843,7 @@
   },
   "finance-in-motion": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": true,
@@ -1855,7 +1852,7 @@
   },
   "fao-colombia": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": true,
@@ -1864,10 +1861,10 @@
   },
   "fondo-accion": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 32,
-   "pagina_cambio": true,
+   "pagina_cambio": false,
    "nuevas": [],
    "lista": [
     {
@@ -2034,7 +2031,7 @@
   },
   "flip": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": false,
@@ -2043,7 +2040,7 @@
   },
   "fudoc": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": false,
@@ -2052,7 +2049,7 @@
   },
   "fondo-noruego-para-los-derechos-humanos": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": false,
@@ -2061,7 +2058,7 @@
   },
   "dialogo-intereclesial-por-la-paz-de-colombia-dipaz": {
    "estado": "error",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "HTTPError: 404 Client Error: Not Found for url: https://www.dipazcolombia.org/prensa/",
    "activas": 0,
    "pagina_cambio": false,
@@ -2070,7 +2067,7 @@
   },
   "fundacion-acerias-paz-del-rio": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": false,
@@ -2079,7 +2076,7 @@
   },
   "fundacion-acesco": {
    "estado": "error",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
    "activas": 0,
    "pagina_cambio": false,
@@ -2088,7 +2085,7 @@
   },
   "fundacion-agricola-himalaya": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": false,
@@ -2097,7 +2094,7 @@
   },
   "fundacion-alejandro-angel-escobar": {
    "estado": "omitida",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "Red social o grupo (no se rastrea; revisar manualmente)",
    "activas": 0,
    "pagina_cambio": false,
@@ -2106,7 +2103,7 @@
   },
   "fundacion-alpina": {
    "estado": "omitida",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "Red social o grupo (no se rastrea; revisar manualmente)",
    "activas": 0,
    "pagina_cambio": false,
@@ -2115,7 +2112,7 @@
   },
   "fundacion-alqueria-cavelier": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": false,
@@ -2124,7 +2121,7 @@
   },
   "fundacion-alvaralice": {
    "estado": "omitida",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "Red social o grupo (no se rastrea; revisar manualmente)",
    "activas": 0,
    "pagina_cambio": false,
@@ -2133,7 +2130,7 @@
   },
   "fundacion-amanecer": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 9,
    "pagina_cambio": true,
@@ -2158,13 +2155,6 @@
      "l": "Colombia",
      "f": "2026-11-06",
      "c": []
-    },
-    {
-     "t": "Asesor Comercial Villavicencio",
-     "u": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-asesor-comercial-villavicencio-en-villavicencio-AEAACFDB5016397261373E686DCF3405",
-     "l": "Colombia",
-     "f": "2026-11-06",
-     "c": []
     }
    ],
    "lista": [
@@ -2176,6 +2166,11 @@
     {
      "t": "Asesor Comercial supernumerario Meta",
      "u": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-asesor-comercial-supernumerario-meta-en-villavicencio-1C92CA6CC555DBD361373E686DCF3405",
+     "l": "Colombia"
+    },
+    {
+     "t": "Asesor Comercial Tauramena",
+     "u": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-asesor-comercial-tauramena-en-monterrey-17A9FE6B17C6341361373E686DCF3405",
      "l": "Colombia"
     },
     {
@@ -2199,11 +2194,6 @@
      "l": "Colombia"
     },
     {
-     "t": "Asesor Comercial Villavicencio",
-     "u": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-asesor-comercial-villavicencio-en-villavicencio-AEAACFDB5016397261373E686DCF3405",
-     "l": "Colombia"
-    },
-    {
      "t": "Asesor Comercial Rural Chiquinquira",
      "u": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-asesor-comercial-rural-chiquinquira-en-chiquinquira-5B54DEF3F188AF2161373E686DCF3405",
      "l": "Colombia"
@@ -2217,7 +2207,7 @@
   },
   "fundacion-aprender-a-quererte": {
    "estado": "omitida",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "Red social o grupo (no se rastrea; revisar manualmente)",
    "activas": 0,
    "pagina_cambio": false,
@@ -2226,7 +2216,7 @@
   },
   "fundacion-arturo-calle": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": true,
@@ -2235,7 +2225,7 @@
   },
   "fundacion-arturo-sesana": {
    "estado": "omitida",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "Red social o grupo (no se rastrea; revisar manualmente)",
    "activas": 0,
    "pagina_cambio": false,
@@ -2244,7 +2234,7 @@
   },
   "fundacion-aurelio-llano": {
    "estado": "omitida",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "Red social o grupo (no se rastrea; revisar manualmente)",
    "activas": 0,
    "pagina_cambio": false,
@@ -2253,7 +2243,7 @@
   },
   "fundacion-bajo-el-palmar": {
    "estado": "error",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "HTTPError: 500 Server Error: Internal Server Error for url: https://palcesar.com/trabaje-con-nosotros/",
    "activas": 0,
    "pagina_cambio": false,
@@ -2262,7 +2252,7 @@
   },
   "fundacion-bancolombia": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": false,
@@ -2271,7 +2261,7 @@
   },
   "forumciv": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": false,
@@ -2280,7 +2270,7 @@
   },
   "fundacion-bavaria": {
    "estado": "error",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "HTTPError: 404 Client Error: Not Found for url: https://www.bavaria.co/talento",
    "activas": 0,
    "pagina_cambio": false,
@@ -2289,7 +2279,7 @@
   },
   "fundacion-belcorp": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": false,
@@ -2298,7 +2288,7 @@
   },
   "fundacion-berta-martinez": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": false,
@@ -2307,7 +2297,7 @@
   },
   "fundacion-bolivar-davivienda": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": false,
@@ -2316,7 +2306,7 @@
   },
   "fundacion-caicedo-gonzalez-riopaila-castilla": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": false,
@@ -2325,7 +2315,7 @@
   },
   "fundacion-carlos-vallecilla-borrero": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": false,
@@ -2334,7 +2324,7 @@
   },
   "fundacion-carvajal": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": false,
@@ -2343,7 +2333,7 @@
   },
   "fundacion-acdi-voca": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": false,
@@ -2352,7 +2342,7 @@
   },
   "fundacion-colombina": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": false,
@@ -2361,7 +2351,7 @@
   },
   "fundacion-coomeva": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": true,
@@ -2370,7 +2360,7 @@
   },
   "fundacion-corazon-de-cana": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": true,
@@ -2379,7 +2369,7 @@
   },
   "fundacion-corficolombiana": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": false,
@@ -2388,7 +2378,7 @@
   },
   "fundacion-corona": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": false,
@@ -2397,7 +2387,7 @@
   },
   "fundacion-fanalca": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": false,
@@ -2406,7 +2396,7 @@
   },
   "fundacion-fomenta": {
    "estado": "omitida",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "Red social o grupo (no se rastrea; revisar manualmente)",
    "activas": 0,
    "pagina_cambio": false,
@@ -2415,7 +2405,7 @@
   },
   "fundacion-fraternidad-medellin": {
    "estado": "omitida",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "Red social o grupo (no se rastrea; revisar manualmente)",
    "activas": 0,
    "pagina_cambio": false,
@@ -2424,7 +2414,7 @@
   },
   "fundacion-frisby": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": false,
@@ -2433,7 +2423,7 @@
   },
   "fundacion-gascaribe": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": true,
@@ -2442,7 +2432,7 @@
   },
   "fundacion-greenland": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": false,
@@ -2451,7 +2441,7 @@
   },
   "fundacion-grupo-argos": {
    "estado": "error",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "HTTPError: 403 Client Error: Forbidden for url: https://jobs.grupoargos.com/",
    "activas": 0,
    "pagina_cambio": false,
@@ -2460,16 +2450,16 @@
   },
   "fundacion-grupo-bios": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
-   "pagina_cambio": true,
+   "pagina_cambio": false,
    "nuevas": [],
    "lista": []
   },
   "fundacion-grupo-epm": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": false,
@@ -2478,7 +2468,7 @@
   },
   "fundacion-grupo-social": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": true,
@@ -2487,7 +2477,7 @@
   },
   "fundacion-haceb": {
    "estado": "omitida",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "Red social o grupo (no se rastrea; revisar manualmente)",
    "activas": 0,
    "pagina_cambio": false,
@@ -2496,25 +2486,25 @@
   },
   "fundacion-barco": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
-   "nota": "",
-   "activas": 0,
-   "pagina_cambio": true,
-   "nuevas": [],
-   "lista": []
-  },
-  "fundacion-juan-del-corral": {
-   "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": false,
    "nuevas": [],
    "lista": []
   },
+  "fundacion-juan-del-corral": {
+   "estado": "ok",
+   "revision": "2026-11-13 13:33",
+   "nota": "",
+   "activas": 0,
+   "pagina_cambio": true,
+   "nuevas": [],
+   "lista": []
+  },
   "fundacion-keralty": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": true,
@@ -2523,7 +2513,7 @@
   },
   "fundacion-la-cayena": {
    "estado": "omitida",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "Red social o grupo (no se rastrea; revisar manualmente)",
    "activas": 0,
    "pagina_cambio": false,
@@ -2532,7 +2522,7 @@
   },
   "fundacion-levapan": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": true,
@@ -2541,7 +2531,7 @@
   },
   "fundacion-llevando-esperanza": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": false,
@@ -2550,7 +2540,7 @@
   },
   "fundacion-luker": {
    "estado": "omitida",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "Red social o grupo (no se rastrea; revisar manualmente)",
    "activas": 0,
    "pagina_cambio": false,
@@ -2559,7 +2549,7 @@
   },
   "fundacion-mayaguez": {
    "estado": "omitida",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "Red social o grupo (no se rastrea; revisar manualmente)",
    "activas": 0,
    "pagina_cambio": false,
@@ -2568,7 +2558,7 @@
   },
   "fhi-360": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": false,
@@ -2577,7 +2567,7 @@
   },
   "fundacion-mineros": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 7,
    "pagina_cambio": false,
@@ -2622,7 +2612,7 @@
   },
   "fundacion-monomeros": {
    "estado": "error",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "HTTPError: 502 Server Error: Bad Gateway for url: https://www.monomeros.com.co/trabaja-con-nosotros/",
    "activas": 0,
    "pagina_cambio": false,
@@ -2631,7 +2621,7 @@
   },
   "fundacion-mundo-mujer": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": true,
@@ -2640,7 +2630,7 @@
   },
   "fundacion-cedavida": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": false,
@@ -2649,7 +2639,7 @@
   },
   "fundacion-ideas-para-la-paz": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 32,
    "pagina_cambio": true,
@@ -2819,7 +2809,7 @@
   },
   "fund-for-global-huan-rights": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": false,
@@ -2828,7 +2818,7 @@
   },
   "fundacion-otero-lievano": {
    "estado": "omitida",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "Red social o grupo (no se rastrea; revisar manualmente)",
    "activas": 0,
    "pagina_cambio": false,
@@ -2837,7 +2827,7 @@
   },
   "fundacion-natura-colombia": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 5,
    "pagina_cambio": true,
@@ -2872,7 +2862,7 @@
   },
   "fundacion-pepsico-colombia": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": false,
@@ -2881,7 +2871,7 @@
   },
   "fundacion-pintuco": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": false,
@@ -2890,7 +2880,7 @@
   },
   "fundacion-plan": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 8,
    "pagina_cambio": true,
@@ -2948,7 +2938,7 @@
   },
   "fundacion-postobon": {
    "estado": "error",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "SSLError: HTTPSConnectionPool(host='www.postobon.com', port=443): Max retries exceeded with url: /la-compania/trabaja-nosotros (Caused by SSLError(SSLCertVerificationErro",
    "activas": 0,
    "pagina_cambio": false,
@@ -2957,7 +2947,7 @@
   },
   "fundacion-promigas": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": false,
@@ -2966,7 +2956,7 @@
   },
   "fundacion-propal": {
    "estado": "omitida",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "Red social o grupo (no se rastrea; revisar manualmente)",
    "activas": 0,
    "pagina_cambio": false,
@@ -2975,7 +2965,7 @@
   },
   "fundacion-puerto-aguadulce": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": false,
@@ -2984,7 +2974,7 @@
   },
   "fundacion-quironsalud-colombia": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": false,
@@ -2993,7 +2983,7 @@
   },
   "fundacion-ramirez-moreno": {
    "estado": "omitida",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "Red social o grupo (no se rastrea; revisar manualmente)",
    "activas": 0,
    "pagina_cambio": false,
@@ -3002,7 +2992,7 @@
   },
   "fundacion-saldarriaga-concha": {
    "estado": "omitida",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "Red social o grupo (no se rastrea; revisar manualmente)",
    "activas": 0,
    "pagina_cambio": false,
@@ -3011,7 +3001,7 @@
   },
   "fundacion-santa-isabel": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 12,
    "pagina_cambio": false,
@@ -3081,7 +3071,7 @@
   },
   "fundacion-santodomingo": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": true,
@@ -3090,7 +3080,7 @@
   },
   "fundacion-scarpetta-gnecco": {
    "estado": "omitida",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "Red social o grupo (no se rastrea; revisar manualmente)",
    "activas": 0,
    "pagina_cambio": false,
@@ -3099,7 +3089,7 @@
   },
   "fundacion-secretos-para-contar": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": true,
@@ -3108,7 +3098,7 @@
   },
   "fundacion-serena-del-mar": {
    "estado": "omitida",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "Red social o grupo (no se rastrea; revisar manualmente)",
    "activas": 0,
    "pagina_cambio": false,
@@ -3117,7 +3107,7 @@
   },
   "fundacion-sidoc": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": false,
@@ -3126,7 +3116,7 @@
   },
   "fundacion-smurfit-westrock": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": true,
@@ -3135,7 +3125,7 @@
   },
   "fundacion-mi-sangre": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 8,
    "pagina_cambio": false,
@@ -3185,7 +3175,7 @@
   },
   "fundacion-sofia-perez-de-soto": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 1,
    "pagina_cambio": false,
@@ -3208,7 +3198,7 @@
   },
   "fundacion-sura": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": true,
@@ -3217,7 +3207,7 @@
   },
   "fundacion-telefonica-movistar": {
    "estado": "omitida",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "Red social o grupo (no se rastrea; revisar manualmente)",
    "activas": 0,
    "pagina_cambio": false,
@@ -3226,7 +3216,7 @@
   },
   "fundacion-terpel": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": false,
@@ -3235,7 +3225,7 @@
   },
   "fundacion-texmodas": {
    "estado": "error",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "HTTPError: 502 Server Error: Bad Gateway for url: https://tradealliancecorporation.com/vacantes/",
    "activas": 0,
    "pagina_cambio": false,
@@ -3244,7 +3234,7 @@
   },
   "fundacion-tras-la-perla": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 2,
    "pagina_cambio": true,
@@ -3264,7 +3254,7 @@
   },
   "fundacion-uniban": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 1,
    "pagina_cambio": false,
@@ -3279,7 +3269,7 @@
   },
   "fundacion-upb": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 13,
    "pagina_cambio": true,
@@ -3427,7 +3417,7 @@
   },
   "fundacion-wwb-colombia": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 1,
    "pagina_cambio": true,
@@ -3442,7 +3432,7 @@
   },
   "fundacion-zoraida": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": false,
@@ -3451,7 +3441,7 @@
   },
   "fundeban": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": false,
@@ -3460,7 +3450,7 @@
   },
   "fundacion-panamericana-para-el-desarrollo-fupad": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": false,
@@ -3469,16 +3459,16 @@
   },
   "fundacion-socya": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
-   "pagina_cambio": true,
+   "pagina_cambio": false,
    "nuevas": [],
    "lista": []
   },
   "futuros-corvengentes": {
    "estado": "omitida",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "Red social o grupo (no se rastrea; revisar manualmente)",
    "activas": 0,
    "pagina_cambio": false,
@@ -3487,7 +3477,7 @@
   },
   "fundacion-omacha": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": false,
@@ -3496,7 +3486,7 @@
   },
   "futuro-latinoamericano": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": false,
@@ -3505,7 +3495,7 @@
   },
   "fondo-patrimonio-natural": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "La página no es HTML (image/png)",
    "activas": 0,
    "pagina_cambio": false,
@@ -3514,7 +3504,7 @@
   },
   "gaia-amazonas": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": false,
@@ -3523,16 +3513,42 @@
   },
   "gender-jobs": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
-   "activas": 0,
+   "activas": 2,
    "pagina_cambio": true,
-   "nuevas": [],
-   "lista": []
+   "nuevas": [
+    {
+     "t": "Job opportunity director movement building partnerships",
+     "u": "https://ilga.org/vacancies/job-opportunity-director-movement-building-partnerships",
+     "l": "Remoto",
+     "f": "2026-11-13",
+     "c": []
+    },
+    {
+     "t": "Consultancy measuring shifts perception and attitudes",
+     "u": "https://www.ippf.org/about-us/jobs-and-opportunities/consultancy/consultancy-measuring-shifts-perception-and-attitudes",
+     "l": "Remoto",
+     "f": "2026-11-13",
+     "c": []
+    }
+   ],
+   "lista": [
+    {
+     "t": "Job opportunity director movement building partnerships",
+     "u": "https://ilga.org/vacancies/job-opportunity-director-movement-building-partnerships",
+     "l": "Remoto"
+    },
+    {
+     "t": "Consultancy measuring shifts perception and attitudes",
+     "u": "https://www.ippf.org/about-us/jobs-and-opportunities/consultancy/consultancy-measuring-shifts-perception-and-attitudes",
+     "l": "Remoto"
+    }
+   ]
   },
   "global-affairs-canada": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": false,
@@ -3541,7 +3557,7 @@
   },
   "futuresense-foundation": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": false,
@@ -3550,7 +3566,7 @@
   },
   "geneva-call": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": true,
@@ -3559,7 +3575,7 @@
   },
   "global-environmental-facility": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": false,
@@ -3568,7 +3584,7 @@
   },
   "giz": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": true,
@@ -3577,7 +3593,7 @@
   },
   "glasswing": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": true,
@@ -3586,7 +3602,7 @@
   },
   "global-initiative-against-transnational-organized-crime": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": true,
@@ -3595,7 +3611,7 @@
   },
   "global-partnership-for-education": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": true,
@@ -3604,7 +3620,7 @@
   },
   "global-jobs": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 9,
    "pagina_cambio": true,
@@ -3614,13 +3630,6 @@
      "u": "https://www.globaljobs.org/jobs/52272-malaysia-association-for-womens-rights-in-development-awid-communications-manager",
      "l": "Remoto",
      "f": "2026-11-12",
-     "c": []
-    },
-    {
-     "t": "Fisheries Policy Associate",
-     "u": "https://www.globaljobs.org/jobs/52208-arlington-virginia-the-nature-conservancy-fisheries-policy-associate",
-     "l": "Remoto",
-     "f": "2026-11-05",
      "c": []
     }
    ],
@@ -3674,7 +3683,7 @@
   },
   "global-charity-jobs": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": true,
@@ -3683,7 +3692,7 @@
   },
   "global-green-growth-institute-gggi": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": false,
@@ -3692,7 +3701,7 @@
   },
   "goal-honduras": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 1,
    "pagina_cambio": false,
@@ -3707,7 +3716,7 @@
   },
   "government-of-canada": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": false,
@@ -3716,7 +3725,7 @@
   },
   "great-place-to-work": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": false,
@@ -3725,7 +3734,7 @@
   },
   "green-climate-fund": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": false,
@@ -3734,7 +3743,7 @@
   },
   "global-survivors-fund": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": false,
@@ -3743,7 +3752,7 @@
   },
   "goal": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": true,
@@ -3752,7 +3761,7 @@
   },
   "heartland-alliance": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 1,
    "pagina_cambio": false,
@@ -3767,7 +3776,7 @@
   },
   "helpage": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": true,
@@ -3776,7 +3785,7 @@
   },
   "healthnet-tpo": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": false,
@@ -3785,7 +3794,7 @@
   },
   "hivos": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": false,
@@ -3794,7 +3803,7 @@
   },
   "hias": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": false,
@@ -3803,7 +3812,7 @@
   },
   "ic-fundacion": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": false,
@@ -3812,7 +3821,7 @@
   },
   "humanity-inclusion": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": false,
@@ -3821,7 +3830,7 @@
   },
   "ideallist": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": false,
@@ -3830,7 +3839,7 @@
   },
   "humanity-inclusion-lac": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 4,
    "pagina_cambio": true,
@@ -3840,15 +3849,6 @@
      "u": "https://hi-lac.org/convocatorias/supervisor-tecnico-logistico-remedios-antioquia-colombia-2",
      "l": "Colombia",
      "f": "2026-11-09",
-     "c": [
-      "Colombia"
-     ]
-    },
-    {
-     "t": "Jefe de Proyecto Desminado Nechí, Guadalupe (Nordeste – Antioquia) / Colombia",
-     "u": "https://hi-lac.org/convocatorias/jefe-de-proyecto-desminado-nordeste-nechi-guadalupe-colombia",
-     "l": "Colombia",
-     "f": "2026-11-05",
      "c": [
       "Colombia"
      ]
@@ -3879,7 +3879,7 @@
   },
   "iclei": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": true,
@@ -3888,7 +3888,7 @@
   },
   "immap": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": false,
@@ -3897,7 +3897,7 @@
   },
   "igravity": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": false,
@@ -3906,7 +3906,7 @@
   },
   "impact-initiatives": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": false,
@@ -3915,16 +3915,16 @@
   },
   "impact-europe": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
-   "pagina_cambio": true,
+   "pagina_cambio": false,
    "nuevas": [],
    "lista": []
   },
   "fundacion-natura-panama": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": false,
@@ -3933,7 +3933,7 @@
   },
   "impact-linked-finance-collaborative": {
    "estado": "omitida",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "Sin página de vacantes en el radar",
    "activas": 0,
    "pagina_cambio": false,
@@ -3942,7 +3942,7 @@
   },
   "impact-linked-finance-fund": {
    "estado": "omitida",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "Red social o grupo (no se rastrea; revisar manualmente)",
    "activas": 0,
    "pagina_cambio": false,
@@ -3951,7 +3951,7 @@
   },
   "impact-opportunity": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": true,
@@ -3960,7 +3960,7 @@
   },
   "impact-source": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": false,
@@ -3969,7 +3969,7 @@
   },
   "inmensamente": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": false,
@@ -3978,11 +3978,18 @@
   },
   "impactpool": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
-   "activas": 33,
+   "activas": 32,
    "pagina_cambio": true,
    "nuevas": [
+    {
+     "t": "Technical Consultancy for the Development of an Environmental Impact Coefficient, Economic Assessment for Natural Forest, and Regulatory Recommendations for Updating the Forest Utilization Compensatio",
+     "u": "https://www.impactpool.org/jobs/1247906",
+     "l": "Colombia",
+     "f": "2026-11-13",
+     "c": []
+    },
     {
      "t": "Consortium Project Manager Colombia Bogota",
      "u": "https://www.impactpool.org/jobs/1247670",
@@ -3998,9 +4005,7 @@
      "u": "https://www.impactpool.org/jobs/1247653",
      "l": "Bogota",
      "f": "2026-11-12",
-     "c": [
-      "Bogotá"
-     ]
+     "c": []
     },
     {
      "t": "Oficial de Gestión de Casos",
@@ -4110,13 +4115,6 @@
      "c": []
     },
     {
-     "t": "Consultant: Brand identity, content generation, and digital positioning support",
-     "u": "https://www.impactpool.org/jobs/1246471",
-     "l": "Entrerrios and Granada, Antioquia (Colombia) Contract",
-     "f": "2026-11-06",
-     "c": []
-    },
-    {
      "t": "ONU Mujeres: Especialista en Comunicaciones - Bogotá - Colombia - N-PPSA 10",
      "u": "https://www.impactpool.org/jobs/1246270",
      "l": "Colombia",
@@ -4151,30 +4149,6 @@
      "u": "https://www.impactpool.org/jobs/1246267",
      "l": "Colombia",
      "f": "2026-11-06",
-     "c": [
-      "Colombia",
-      "Bogotá"
-     ]
-    },
-    {
-     "t": "IDB Lead and Partnerships Officer",
-     "u": "https://www.impactpool.org/jobs/1246194",
-     "l": "Bogota, Colombia CONTRACT",
-     "f": "2026-11-05",
-     "c": []
-    },
-    {
-     "t": "Oficial Signpost",
-     "u": "https://www.impactpool.org/jobs/1246185",
-     "l": "Colombia",
-     "f": "2026-11-05",
-     "c": []
-    },
-    {
-     "t": "Head of Support – Bogotá, Colombia (National)",
-     "u": "https://www.impactpool.org/jobs/1246049",
-     "l": "Colombia",
-     "f": "2026-11-05",
      "c": [
       "Colombia",
       "Bogotá"
@@ -4223,11 +4197,6 @@
      "l": "Colombia"
     },
     {
-     "t": "IDB Lead and Partnerships Officer",
-     "u": "https://www.impactpool.org/jobs/1246194",
-     "l": "Bogota, Colombia CONTRACT"
-    },
-    {
      "t": "Oficial Signpost",
      "u": "https://www.impactpool.org/jobs/1246185",
      "l": "Colombia"
@@ -4251,11 +4220,6 @@
      "t": "Enfermero(a)",
      "u": "https://www.impactpool.org/jobs/1246500",
      "l": "Colombia"
-    },
-    {
-     "t": "Consultant: Brand identity, content generation, and digital positioning support",
-     "u": "https://www.impactpool.org/jobs/1246471",
-     "l": "Entrerrios and Granada, Antioquia (Colombia) Contract"
     },
     {
      "t": "ONU Mujeres: Especialista en Comunicaciones - Bogotá - Colombia - N-PPSA 10",
@@ -4346,12 +4310,17 @@
      "t": "Auxiliar de Salud",
      "u": "https://www.impactpool.org/jobs/1247425",
      "l": "Colombia"
+    },
+    {
+     "t": "Technical Consultancy for the Development of an Environmental Impact Coefficient, Economic Assessment for Natural Forest, and Regulatory Recommendations for Updating the Forest Utilization Compensatio",
+     "u": "https://www.impactpool.org/jobs/1247906",
+     "l": "Colombia"
     }
    ]
   },
   "innovations-for-poverty-action-ipa": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 4,
    "pagina_cambio": true,
@@ -4389,7 +4358,7 @@
   },
   "instiglio": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": false,
@@ -4398,7 +4367,7 @@
   },
   "instituto-capaz": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": false,
@@ -4406,9 +4375,9 @@
    "lista": []
   },
   "instituto-amazonico-de-investigaciones-cientificas-sinchi": {
-   "estado": "ok",
-   "revision": "2026-11-12 13:58",
-   "nota": "",
+   "estado": "error",
+   "revision": "2026-11-13 13:33",
+   "nota": "HTTPError: 403 Client Error: Forbidden for url: https://sinchi.org.co/convocatorias",
    "activas": 789,
    "pagina_cambio": false,
    "nuevas": [],
@@ -4617,7 +4586,7 @@
   },
   "instituto-holandes-para-la-democracia-multipartidaria-nimd": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 2,
    "pagina_cambio": false,
@@ -4637,7 +4606,7 @@
   },
   "indev-jobs": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 5,
    "pagina_cambio": true,
@@ -4672,7 +4641,7 @@
   },
   "instituto-igarape": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": false,
@@ -4681,7 +4650,7 @@
   },
   "idh-colombia": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": true,
@@ -4690,7 +4659,7 @@
   },
   "inter-agency-network-for-education-in-emergencies-inee": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": false,
@@ -4699,7 +4668,7 @@
   },
   "international-center-for-transitional-justice": {
    "estado": "error",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "HTTPError: 403 Client Error: Forbidden for url: https://www.ictj.org/es/ofertas-de-empleo-0",
    "activas": 0,
    "pagina_cambio": false,
@@ -4708,7 +4677,7 @@
   },
   "instituto-sociambiental": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": true,
@@ -4717,7 +4686,7 @@
   },
   "interaction": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": false,
@@ -4726,8 +4695,8 @@
   },
   "international-commission-on-missing-persons": {
    "estado": "error",
-   "revision": "2026-11-12 13:58",
-   "nota": "HTTPError: 520 Server Error: <none> for url: https://icmp.int/about-icmp/working-for-icmp/",
+   "revision": "2026-11-13 13:33",
+   "nota": "HTTPError: 403 Client Error: Forbidden for url: https://icmp.int/about-icmp/working-for-icmp/",
    "activas": 0,
    "pagina_cambio": false,
    "nuevas": [],
@@ -4735,7 +4704,7 @@
   },
   "international-crisis-group": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": true,
@@ -4744,7 +4713,7 @@
   },
   "insuco": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": false,
@@ -4753,7 +4722,7 @@
   },
   "international-commission-of-jurists": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": true,
@@ -4762,7 +4731,7 @@
   },
   "international-federation-of-red-cross-and-red-crescent-societies-ifrc": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": true,
@@ -4771,7 +4740,7 @@
   },
   "international-federation-for-human-rights-fidh": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": false,
@@ -4780,22 +4749,33 @@
   },
   "international-development-ngo-jobs": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
-   "activas": 30,
+   "activas": 29,
    "pagina_cambio": false,
    "nuevas": [
+    {
+     "t": "Regional Expert",
+     "u": "https://devnetjobs.org/jobdescription.aspx?job_id=321222",
+     "l": "GDC Middle East - Remote",
+     "f": "2026-11-13",
+     "c": [
+      "remote"
+     ]
+    },
+    {
+     "t": "Consultant- Law Enforcement Liaison Officer",
+     "u": "https://devnetjobs.org/jobdescription.aspx?job_id=321243",
+     "l": "Yaoundé (Remote) · CM",
+     "f": "2026-11-13",
+     "c": [
+      "remote"
+     ]
+    },
     {
      "t": "Information Management Specialist (Loss and Damage Report Submissions)",
      "u": "https://devnetjobs.org/jobdescription.aspx?job_id=319931",
      "l": "Remoto",
-     "f": "2026-11-12",
-     "c": []
-    },
-    {
-     "t": "IDC Operations Manager",
-     "u": "https://devnetjobs.org/jobdescription.aspx?job_id=321080",
-     "l": "TELECOMMUTE",
      "f": "2026-11-12",
      "c": []
     },
@@ -4907,16 +4887,6 @@
      "l": "TELECOMMUTE"
     },
     {
-     "t": "International Consultant",
-     "u": "https://devnetjobs.org/jobdescription.aspx?job_id=319119",
-     "l": "TELECOMMUTE"
-    },
-    {
-     "t": "Researcher",
-     "u": "https://devnetjobs.org/jobdescription.aspx?job_id=319039",
-     "l": "TELECOMMUTE"
-    },
-    {
      "t": "Digital Health Program Manager",
      "u": "https://devnetjobs.org/jobdescription.aspx?job_id=318674",
      "l": "Remoto"
@@ -5017,15 +4987,20 @@
      "l": "Remoto"
     },
     {
-     "t": "IDC Operations Manager",
-     "u": "https://devnetjobs.org/jobdescription.aspx?job_id=321080",
-     "l": "TELECOMMUTE"
+     "t": "Regional Expert",
+     "u": "https://devnetjobs.org/jobdescription.aspx?job_id=321222",
+     "l": "GDC Middle East - Remote"
+    },
+    {
+     "t": "Consultant- Law Enforcement Liaison Officer",
+     "u": "https://devnetjobs.org/jobdescription.aspx?job_id=321243",
+     "l": "Yaoundé (Remote) · CM"
     }
    ]
   },
   "global-landscapes-forum-glf": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 4,
    "pagina_cambio": false,
@@ -5055,7 +5030,7 @@
   },
   "international-rescue-committee": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": false,
@@ -5064,7 +5039,7 @@
   },
   "internet-society": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 2,
    "pagina_cambio": true,
@@ -5084,7 +5059,7 @@
   },
   "international-finance-facility-for-education-iffed": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": false,
@@ -5093,7 +5068,7 @@
   },
   "international-union-for-conservation-of-nature-and-natural-resources": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": true,
@@ -5102,30 +5077,20 @@
   },
   "internews": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
-   "pagina_cambio": true,
+   "pagina_cambio": false,
    "nuevas": [],
    "lista": []
   },
   "international-justice-mission": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 2,
    "pagina_cambio": false,
-   "nuevas": [
-    {
-     "t": "Payroll Specialist, Global Finance",
-     "u": "https://ijm.wd5.myworkdayjobs.com/careers-ijm/job/United-States---Remote/Payroll-Specialist--Global-Finance_R-02684",
-     "l": "United States - Remote",
-     "f": "2026-11-05",
-     "c": [
-      "remote"
-     ]
-    }
-   ],
+   "nuevas": [],
    "lista": [
     {
      "t": "Sr. Officer, U.S. Philanthropy",
@@ -5141,7 +5106,7 @@
   },
   "iom": {
    "estado": "error",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "HTTPError: 403 Client Error: Forbidden for url: https://www.iom.int/careers",
    "activas": 0,
    "pagina_cambio": false,
@@ -5150,7 +5115,7 @@
   },
   "israaid-colombia": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": true,
@@ -5159,27 +5124,30 @@
   },
   "human-rights-careers": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
-   "activas": 2,
+   "activas": 1,
    "pagina_cambio": true,
-   "nuevas": [],
+   "nuevas": [
+    {
+     "t": "Post-graduate Fellow",
+     "u": "https://jobs.humanrightscareers.com/job/post-graduate-fellow-86194",
+     "l": "Remoto",
+     "f": "2026-11-13",
+     "c": []
+    }
+   ],
    "lista": [
     {
-     "t": "Project Director",
-     "u": "https://jobs.humanrightscareers.com/job/project-director-86180",
-     "l": "Remoto"
-    },
-    {
-     "t": "Associate Manager, Media",
-     "u": "https://jobs.humanrightscareers.com/job/associate-manager-media-86178",
+     "t": "Post-graduate Fellow",
+     "u": "https://jobs.humanrightscareers.com/job/post-graduate-fellow-86194",
      "l": "Remoto"
     }
    ]
   },
   "jobs-to-apply": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 9,
    "pagina_cambio": true,
@@ -5300,7 +5268,7 @@
   },
   "jacobs-foundation": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": false,
@@ -5309,9 +5277,9 @@
   },
   "johnson-johnson": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
-   "activas": 3,
+   "activas": 1,
    "pagina_cambio": true,
    "nuevas": [
     {
@@ -5320,33 +5288,9 @@
      "l": "Colombia",
      "f": "2026-11-12",
      "c": []
-    },
-    {
-     "t": "Facilities Manager",
-     "u": "https://www.careers.jnj.com/en/jobs/r-107899/facilities-manager",
-     "l": "Colombia",
-     "f": "2026-11-09",
-     "c": []
-    },
-    {
-     "t": "Market Access Manager Immunology LA North",
-     "u": "https://www.careers.jnj.com/en/jobs/r-109305/market-access-manager-immunology-la-north",
-     "l": "Colombia",
-     "f": "2026-11-09",
-     "c": []
     }
    ],
    "lista": [
-    {
-     "t": "Facilities Manager",
-     "u": "https://www.careers.jnj.com/en/jobs/r-107899/facilities-manager",
-     "l": "Colombia"
-    },
-    {
-     "t": "Market Access Manager Immunology LA North",
-     "u": "https://www.careers.jnj.com/en/jobs/r-109305/market-access-manager-immunology-la-north",
-     "l": "Colombia"
-    },
     {
      "t": "Market Access Jr Manager Oncology LA North",
      "u": "https://www.careers.jnj.com/en/jobs/r-109592/market-access-jr-manager-oncology-la-north",
@@ -5356,7 +5300,7 @@
   },
   "intersos": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": false,
@@ -5365,7 +5309,7 @@
   },
   "international-ngo-safety-organization": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": true,
@@ -5374,7 +5318,7 @@
   },
   "kiva": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 4,
    "pagina_cambio": true,
@@ -5412,7 +5356,7 @@
   },
   "konrad-adenauer-stiftung": {
    "estado": "error",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "HTTPError: 403 Client Error: Forbidden for url: https://www.kas.de/es/web/guest/vacantes",
    "activas": 0,
    "pagina_cambio": false,
@@ -5421,7 +5365,7 @@
   },
   "la-mata-del-trabajo": {
    "estado": "omitida",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "Red social o grupo (no se rastrea; revisar manualmente)",
    "activas": 0,
    "pagina_cambio": false,
@@ -5430,7 +5374,7 @@
   },
   "jobs-for-planet": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": false,
@@ -5439,7 +5383,7 @@
   },
   "latino-community-foundation": {
    "estado": "error",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "HTTPError: 403 Client Error: Forbidden for url: https://latinocf.org/who-we-are/employment/",
    "activas": 0,
    "pagina_cambio": false,
@@ -5448,7 +5392,7 @@
   },
   "kresge-foundation": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": false,
@@ -5457,7 +5401,7 @@
   },
   "limpal-colombia": {
    "estado": "bloqueada",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "robots.txt no permite rastrear esta página",
    "activas": 0,
    "pagina_cambio": false,
@@ -5466,7 +5410,7 @@
   },
   "linc": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": false,
@@ -5475,16 +5419,16 @@
   },
   "ipam-amazonia": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
-   "pagina_cambio": true,
+   "pagina_cambio": false,
    "nuevas": [],
    "lista": []
   },
   "lundin-foundation": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": false,
@@ -5493,7 +5437,7 @@
   },
   "luminate-group": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": false,
@@ -5502,7 +5446,7 @@
   },
   "la-coordinadora-de-organizaciones-para-el-desarrollo": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": true,
@@ -5511,7 +5455,7 @@
   },
   "lumos": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": false,
@@ -5520,7 +5464,7 @@
   },
   "matteria": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 11,
    "pagina_cambio": true,
@@ -5547,11 +5491,6 @@
      "l": "Colombia (organización colombiana)"
     },
     {
-     "t": "Jessica Sanchez Consultora Asociada",
-     "u": "https://jobs.matteria.co/en/people/17265-jessica-sanchez",
-     "l": "Colombia (organización colombiana)"
-    },
-    {
      "t": "Jessica Gomora Consultora Asociada",
      "u": "https://jobs.matteria.co/en/people/2137-jessica-gomora",
      "l": "Colombia (organización colombiana)"
@@ -5562,13 +5501,18 @@
      "l": "Colombia (organización colombiana)"
     },
     {
+     "t": "Mariajosé Pajares Product Manager",
+     "u": "https://jobs.matteria.co/en/people/1996-mariajose-pajares",
+     "l": "Colombia (organización colombiana)"
+    },
+    {
      "t": "Monique Gomes Consultora Associada",
      "u": "https://jobs.matteria.co/en/people/2237-monique-gomes",
      "l": "Colombia (organización colombiana)"
     },
     {
-     "t": "Rafael Achondo Executive Director",
-     "u": "https://jobs.matteria.co/en/people/1926-rafael-achondo",
+     "t": "Vania Donoso Consultora Asociada",
+     "u": "https://jobs.matteria.co/en/people/2157-vania-donoso",
      "l": "Colombia (organización colombiana)"
     },
     {
@@ -5600,7 +5544,7 @@
   },
   "lutheran-world-federation": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": false,
@@ -5609,7 +5553,7 @@
   },
   "mag-mines-advisory-group": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": true,
@@ -5618,7 +5562,7 @@
   },
   "mas-oportunidades": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": false,
@@ -5627,7 +5571,7 @@
   },
   "lala-latin-american-leadership-academy": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": false,
@@ -5636,7 +5580,7 @@
   },
   "make-sense": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": false,
@@ -5645,7 +5589,7 @@
   },
   "juntos-construyendo-futuro": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": false,
@@ -5654,7 +5598,7 @@
   },
   "medical-teams": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": false,
@@ -5663,11 +5607,19 @@
   },
   "mercy-corps": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
-   "activas": 7,
+   "activas": 8,
    "pagina_cambio": true,
-   "nuevas": [],
+   "nuevas": [
+    {
+     "t": "International Consultant Pool: Employee Relations, HR Investigations and ER People Team Training",
+     "u": "https://jobs.jobvite.com/mercycorps/job/oP86Afwn",
+     "l": "Remoto",
+     "f": "2026-11-13",
+     "c": []
+    }
+   ],
    "lista": [
     {
      "t": "Expert Roster: Energy Access Consultants",
@@ -5703,12 +5655,17 @@
      "t": "Awards Management Team Program Officer, Latin America and Caribbean - US or Colombia",
      "u": "https://jobs.jobvite.com/mercycorps/job/o9h2AfwM",
      "l": "Colombia"
+    },
+    {
+     "t": "International Consultant Pool: Employee Relations, HR Investigations and ER People Team Training",
+     "u": "https://jobs.jobvite.com/mercycorps/job/oP86Afwn",
+     "l": "Remoto"
     }
    ]
   },
   "mercy-corps-colombia": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "No se pudo abrir con navegador: Error",
    "activas": 0,
    "pagina_cambio": false,
@@ -5717,7 +5674,7 @@
   },
   "medicos-del-mundo-colombia": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 13,
    "pagina_cambio": true,
@@ -5792,10 +5749,10 @@
   },
   "ministerio-de-educacion-nacional": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 18,
-   "pagina_cambio": false,
+   "pagina_cambio": true,
    "nuevas": [],
    "lista": [
     {
@@ -5892,7 +5849,7 @@
   },
   "medicos-del-mundo": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": true,
@@ -5901,7 +5858,7 @@
   },
   "medicos-sin-fronteras": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": true,
@@ -5910,7 +5867,7 @@
   },
   "mision-de-observacion-electoral": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 9,
    "pagina_cambio": false,
@@ -5965,7 +5922,7 @@
   },
   "nap-global-network": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": true,
@@ -5974,7 +5931,7 @@
   },
   "national-audubon-society": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": false,
@@ -5983,7 +5940,7 @@
   },
   "natural-resources-defense-council-nrdc": {
    "estado": "error",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "HTTPError: 403 Client Error: Forbidden for url: https://www.nrdc.org/careers",
    "activas": 0,
    "pagina_cambio": false,
@@ -5992,7 +5949,7 @@
   },
   "mott-macdonald": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": true,
@@ -6001,7 +5958,7 @@
   },
   "national-endowment-for-democracy-ned": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": false,
@@ -6010,7 +5967,7 @@
   },
   "msi": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": false,
@@ -6019,7 +5976,7 @@
   },
   "net-impact": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": false,
@@ -6028,7 +5985,7 @@
   },
   "nesst": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": false,
@@ -6037,7 +5994,7 @@
   },
   "ngo-tenders": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 4,
    "pagina_cambio": true,
@@ -6096,7 +6053,7 @@
   },
   "observatorio-do-clima": {
    "estado": "omitida",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "Sin página de vacantes en el radar",
    "activas": 0,
    "pagina_cambio": false,
@@ -6105,7 +6062,7 @@
   },
   "norwegian-people-s-aid": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": false,
@@ -6114,7 +6071,7 @@
   },
   "oak-foundation": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": false,
@@ -6123,7 +6080,7 @@
   },
   "oim-colombia": {
    "estado": "error",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "HTTPError: 403 Client Error: Forbidden for url: https://colombia.iom.int/es/vacantes",
    "activas": 0,
    "pagina_cambio": false,
@@ -6132,7 +6089,7 @@
   },
   "oficina-internacional-de-los-derechos-del-nino-ibcr": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": false,
@@ -6141,7 +6098,7 @@
   },
   "onu": {
    "estado": "error",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "HTTPError: 403 Client Error: Forbidden for url: https://careers.un.org/lbw/Home.aspx",
    "activas": 0,
    "pagina_cambio": false,
@@ -6150,7 +6107,7 @@
   },
   "one-drop-foundation": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": false,
@@ -6159,26 +6116,11 @@
   },
   "onpurpose-careers": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 2,
    "pagina_cambio": true,
-   "nuevas": [
-    {
-     "t": "IT Business Relationship Director Americas JR00005861",
-     "u": "https://theirc.wd1.myworkdayjobs.com/en-US/External_Careers/job/United-States-Remote/IT-Business-Relationship-Director--Americas_JR00005861",
-     "l": "Remoto",
-     "f": "2026-11-05",
-     "c": []
-    },
-    {
-     "t": "director of human resources part time anywhere nkcxT2",
-     "u": "https://the-water-project.hirehive.com/director-of-human-resources-part-time-anywhere-nkcxT2",
-     "l": "Remoto",
-     "f": "2026-11-05",
-     "c": []
-    }
-   ],
+   "nuevas": [],
    "lista": [
     {
      "t": "IT Business Relationship Director Americas JR00005861",
@@ -6194,7 +6136,7 @@
   },
   "opcion-legal": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": false,
@@ -6203,7 +6145,7 @@
   },
   "onu-habitat": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 2,
    "pagina_cambio": true,
@@ -6233,7 +6175,7 @@
   },
   "oportunidades-laborales": {
    "estado": "omitida",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "Red social o grupo (no se rastrea; revisar manualmente)",
    "activas": 0,
    "pagina_cambio": false,
@@ -6242,7 +6184,7 @@
   },
   "open-society-foundations": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": false,
@@ -6251,7 +6193,7 @@
   },
   "organizacion-de-estados-iberoamericanos": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": false,
@@ -6259,9 +6201,9 @@
    "lista": []
   },
   "organizacion-de-los-estados-americanos-oea": {
-   "estado": "error",
-   "revision": "2026-11-12 13:58",
-   "nota": "HTTPError: 403 Client Error: Forbidden for url: https://www.oas.org/dhrs/dhr/employment_opportunities.asp",
+   "estado": "ok",
+   "revision": "2026-11-13 13:33",
+   "nota": "",
    "activas": 0,
    "pagina_cambio": false,
    "nuevas": [],
@@ -6269,7 +6211,7 @@
   },
   "oxfam-colombia": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": false,
@@ -6278,7 +6220,7 @@
   },
   "oxfam": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": false,
@@ -6287,16 +6229,16 @@
   },
   "oxfam-lac": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
-   "pagina_cambio": true,
+   "pagina_cambio": false,
    "nuevas": [],
    "lista": []
   },
   "pact": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": false,
@@ -6305,7 +6247,7 @@
   },
   "oxfam-intermon": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": false,
@@ -6314,7 +6256,7 @@
   },
   "pan-american-development-foundation-padf": {
    "estado": "bloqueada",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "robots.txt no permite rastrear esta página",
    "activas": 0,
    "pagina_cambio": false,
@@ -6323,7 +6265,7 @@
   },
   "open-igo": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": false,
@@ -6332,7 +6274,7 @@
   },
   "panagora": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 1,
    "pagina_cambio": true,
@@ -6347,7 +6289,7 @@
   },
   "parque-explora": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": true,
@@ -6356,7 +6298,7 @@
   },
   "path": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": false,
@@ -6365,7 +6307,7 @@
   },
   "observatorio-de-la-universidad-colombiana": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 1,
    "pagina_cambio": true,
@@ -6380,7 +6322,7 @@
   },
   "partners-of-the-americas": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": true,
@@ -6389,7 +6331,7 @@
   },
   "pathways-international": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 1,
    "pagina_cambio": false,
@@ -6404,7 +6346,7 @@
   },
   "pcdn-impact-ai": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": false,
@@ -6413,7 +6355,7 @@
   },
   "philanthrosee": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": true,
@@ -6422,65 +6364,65 @@
   },
   "pcdn": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 9,
    "pagina_cambio": true,
    "nuevas": [
     {
-     "t": "Associate Director, Program Success",
-     "u": "https://jobs.pcdn.global/jobs/associate-director-program-success-1a2e86da",
+     "t": "Quality & Partnerships Lead, FE Colleges (Liverpool)",
+     "u": "https://jobs.pcdn.global/jobs/quality-partnerships-lead-fe-colleges-liverpool-e69bdcbe",
      "l": "Remoto",
-     "f": "2026-11-12",
+     "f": "2026-11-13",
      "c": []
     },
     {
-     "t": "Senior Director, Hunter College",
-     "u": "https://jobs.pcdn.global/jobs/senior-director-hunter-college-83f9aaeb",
+     "t": "Senior Financial Analyst, Commercial Finance",
+     "u": "https://jobs.pcdn.global/jobs/senior-financial-analyst-commercial-finance-392b5608",
      "l": "Remoto",
-     "f": "2026-11-12",
+     "f": "2026-11-13",
+     "c": []
+    },
+    {
+     "t": "Sr. Policy Analyst",
+     "u": "https://jobs.pcdn.global/jobs/sr-policy-analyst-26adc5eb",
+     "l": "Remoto",
+     "f": "2026-11-13",
+     "c": []
+    },
+    {
+     "t": "Sr. Policy Analyst",
+     "u": "https://jobs.pcdn.global/jobs/sr-policy-analyst-492a5c24",
+     "l": "Remoto",
+     "f": "2026-11-13",
+     "c": []
+    },
+    {
+     "t": "Software Engineering Manager, Cloud Engineering",
+     "u": "https://jobs.pcdn.global/jobs/software-engineering-manager-cloud-engineering-35d3edf3",
+     "l": "Remoto",
+     "f": "2026-11-13",
      "c": []
     },
     {
      "t": "Field Marketing Manager, Firefox Enterprise",
-     "u": "https://jobs.pcdn.global/jobs/field-marketing-manager-firefox-enterprise-50f7b21b",
+     "u": "https://jobs.pcdn.global/jobs/field-marketing-manager-firefox-enterprise-6f5708eb",
      "l": "Remoto",
-     "f": "2026-11-12",
+     "f": "2026-11-13",
      "c": []
     },
     {
-     "t": "Associate Director of Research and Evaluation",
-     "u": "https://jobs.pcdn.global/jobs/associate-director-of-research-and-evaluation-fa9182ce",
+     "t": "Director, Procurement and Grant Compliance",
+     "u": "https://jobs.pcdn.global/jobs/director-procurement-and-grant-compliance-54331bf4",
      "l": "Remoto",
-     "f": "2026-11-12",
+     "f": "2026-11-13",
      "c": []
     },
     {
-     "t": "Associate Director of Technology",
-     "u": "https://jobs.pcdn.global/jobs/associate-director-of-technology-158133c5",
+     "t": "Customer Experience Manager",
+     "u": "https://jobs.pcdn.global/jobs/customer-experience-manager-08c967e0",
      "l": "Remoto",
-     "f": "2026-11-12",
-     "c": []
-    },
-    {
-     "t": "Product Manager- microbit.org",
-     "u": "https://jobs.pcdn.global/jobs/product-manager-microbit-org-9b766986",
-     "l": "Remoto",
-     "f": "2026-11-12",
-     "c": []
-    },
-    {
-     "t": "Board Research Associate",
-     "u": "https://jobs.pcdn.global/jobs/board-research-associate-092cfbcd",
-     "l": "Remoto",
-     "f": "2026-11-12",
-     "c": []
-    },
-    {
-     "t": "Head Of People and Culture",
-     "u": "https://jobs.pcdn.global/jobs/head-of-people-and-culture-a3dee92f",
-     "l": "Remoto",
-     "f": "2026-11-12",
+     "f": "2026-11-13",
      "c": []
     }
    ],
@@ -6491,50 +6433,50 @@
      "l": "Remoto"
     },
     {
-     "t": "Associate Director, Program Success",
-     "u": "https://jobs.pcdn.global/jobs/associate-director-program-success-1a2e86da",
+     "t": "Quality & Partnerships Lead, FE Colleges (Liverpool)",
+     "u": "https://jobs.pcdn.global/jobs/quality-partnerships-lead-fe-colleges-liverpool-e69bdcbe",
      "l": "Remoto"
     },
     {
-     "t": "Senior Director, Hunter College",
-     "u": "https://jobs.pcdn.global/jobs/senior-director-hunter-college-83f9aaeb",
+     "t": "Senior Financial Analyst, Commercial Finance",
+     "u": "https://jobs.pcdn.global/jobs/senior-financial-analyst-commercial-finance-392b5608",
+     "l": "Remoto"
+    },
+    {
+     "t": "Sr. Policy Analyst",
+     "u": "https://jobs.pcdn.global/jobs/sr-policy-analyst-26adc5eb",
+     "l": "Remoto"
+    },
+    {
+     "t": "Sr. Policy Analyst",
+     "u": "https://jobs.pcdn.global/jobs/sr-policy-analyst-492a5c24",
+     "l": "Remoto"
+    },
+    {
+     "t": "Software Engineering Manager, Cloud Engineering",
+     "u": "https://jobs.pcdn.global/jobs/software-engineering-manager-cloud-engineering-35d3edf3",
      "l": "Remoto"
     },
     {
      "t": "Field Marketing Manager, Firefox Enterprise",
-     "u": "https://jobs.pcdn.global/jobs/field-marketing-manager-firefox-enterprise-50f7b21b",
+     "u": "https://jobs.pcdn.global/jobs/field-marketing-manager-firefox-enterprise-6f5708eb",
      "l": "Remoto"
     },
     {
-     "t": "Associate Director of Research and Evaluation",
-     "u": "https://jobs.pcdn.global/jobs/associate-director-of-research-and-evaluation-fa9182ce",
+     "t": "Director, Procurement and Grant Compliance",
+     "u": "https://jobs.pcdn.global/jobs/director-procurement-and-grant-compliance-54331bf4",
      "l": "Remoto"
     },
     {
-     "t": "Associate Director of Technology",
-     "u": "https://jobs.pcdn.global/jobs/associate-director-of-technology-158133c5",
-     "l": "Remoto"
-    },
-    {
-     "t": "Product Manager- microbit.org",
-     "u": "https://jobs.pcdn.global/jobs/product-manager-microbit-org-9b766986",
-     "l": "Remoto"
-    },
-    {
-     "t": "Board Research Associate",
-     "u": "https://jobs.pcdn.global/jobs/board-research-associate-092cfbcd",
-     "l": "Remoto"
-    },
-    {
-     "t": "Head Of People and Culture",
-     "u": "https://jobs.pcdn.global/jobs/head-of-people-and-culture-a3dee92f",
+     "t": "Customer Experience Manager",
+     "u": "https://jobs.pcdn.global/jobs/customer-experience-manager-08c967e0",
      "l": "Remoto"
     }
    ]
   },
   "peace-brigades-international-colombia-pbi": {
    "estado": "error",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "HTTPError: 403 Client Error: Forbidden for url: https://pbicolombia.org/es/quieres-ser-brigadista/convocatorias",
    "activas": 2,
    "pagina_cambio": false,
@@ -6554,7 +6496,7 @@
   },
   "platzi": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 4,
    "pagina_cambio": false,
@@ -6584,7 +6526,7 @@
   },
   "pnud": {
    "estado": "bloqueada",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "robots.txt no permite rastrear esta página",
    "activas": 0,
    "pagina_cambio": false,
@@ -6593,7 +6535,7 @@
   },
   "mision-de-apoyo-al-proceso-de-paz-en-colombia-mapp-oea": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": false,
@@ -6602,7 +6544,7 @@
   },
   "pnud-colombia-vacantes": {
    "estado": "error",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "HTTPError: 403 Client Error: Forbidden for url: https://www.undp.org/es/colombia/convocatorias-laborales",
    "activas": 0,
    "pagina_cambio": false,
@@ -6611,7 +6553,7 @@
   },
   "plan-international": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": false,
@@ -6620,20 +6562,27 @@
   },
   "philea-philanthropy-europe-association": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
-   "pagina_cambio": false,
+   "pagina_cambio": true,
    "nuevas": [],
    "lista": []
   },
   "profamilia": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
-   "activas": 15,
+   "activas": 14,
    "pagina_cambio": true,
    "nuevas": [
+    {
+     "t": "Practicante universitario, Desarrollo de Software",
+     "u": "https://asociacion-profamilia.pandape.computrabajo.com/Detail/14165520",
+     "l": "Colombia (organización colombiana)",
+     "f": "2026-11-13",
+     "c": []
+    },
     {
      "t": "Auxiliar de Compras y contratación sector Salud",
      "u": "https://asociacion-profamilia.pandape.computrabajo.com/Detail/14162418",
@@ -6714,29 +6663,12 @@
      "l": "Colombia",
      "f": "2026-11-06",
      "c": []
-    },
-    {
-     "t": "Analista de sistemas de Información",
-     "u": "https://asociacion-profamilia.pandape.computrabajo.com/Detail/14078867",
-     "l": "Colombia (organización colombiana)",
-     "f": "2026-11-05",
-     "c": []
     }
    ],
    "lista": [
     {
      "t": "Profesional en medicina Medellin",
      "u": "https://asociacion-profamilia.pandape.computrabajo.com/Detail/14033461",
-     "l": "Colombia"
-    },
-    {
-     "t": "Analista administrativo Bogotá",
-     "u": "https://asociacion-profamilia.pandape.computrabajo.com/Detail/14044236",
-     "l": "Colombia"
-    },
-    {
-     "t": "Profesional en medicina Medellin",
-     "u": "https://asociacion-profamilia.pandape.computrabajo.com/Detail/14063209",
      "l": "Colombia"
     },
     {
@@ -6798,12 +6730,17 @@
      "t": "Practicante Universitario Contratación en Salud Bogotá",
      "u": "https://asociacion-profamilia.pandape.computrabajo.com/Detail/14150949",
      "l": "Colombia"
+    },
+    {
+     "t": "Practicante universitario, Desarrollo de Software",
+     "u": "https://asociacion-profamilia.pandape.computrabajo.com/Detail/14165520",
+     "l": "Colombia (organización colombiana)"
     }
    ]
   },
   "project-hope": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": false,
@@ -6812,7 +6749,7 @@
   },
   "premiere-urgence": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": true,
@@ -6821,7 +6758,7 @@
   },
   "porticus": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": true,
@@ -6830,11 +6767,19 @@
   },
   "prosper-global": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
-   "activas": 7,
+   "activas": 8,
    "pagina_cambio": true,
-   "nuevas": [],
+   "nuevas": [
+    {
+     "t": "International Consultant Pool: Employee Relations, HR Investigations and ER People Team Training Anywhere, United States",
+     "u": "https://jobs.jobvite.com/prosperglobal/job/oP86Afwn",
+     "l": "Remoto",
+     "f": "2026-11-13",
+     "c": []
+    }
+   ],
    "lista": [
     {
      "t": "Expert Roster: Energy Access Consultants Anywhere, United States",
@@ -6870,12 +6815,17 @@
      "t": "Awards Management Team Program Officer, Latin America and Caribbean - US or Colombia Various, United States",
      "u": "https://jobs.jobvite.com/prosperglobal/job/o9h2AfwM",
      "l": "Colombia"
+    },
+    {
+     "t": "International Consultant Pool: Employee Relations, HR Investigations and ER People Team Training Anywhere, United States",
+     "u": "https://jobs.jobvite.com/prosperglobal/job/oP86Afwn",
+     "l": "Remoto"
     }
    ]
   },
   "rainforest-alliance": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": false,
@@ -6884,7 +6834,7 @@
   },
   "purposephil-career": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 5,
    "pagina_cambio": true,
@@ -6938,7 +6888,7 @@
   },
   "pnud-colombia-consultoria": {
    "estado": "error",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "HTTPError: 403 Client Error: Forbidden for url: https://www.undp.org/es/colombia/adquisiciones",
    "activas": 0,
    "pagina_cambio": false,
@@ -6947,7 +6897,7 @@
   },
   "red-papaz": {
    "estado": "error",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "HTTPError: 403 Client Error: Forbidden for url: https://www.redpapaz.org/red-papaz-2/trabaje-con-nosotros/",
    "activas": 0,
    "pagina_cambio": false,
@@ -6956,7 +6906,7 @@
   },
   "red-adelco": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 4,
    "pagina_cambio": true,
@@ -6986,7 +6936,7 @@
   },
   "protection-international": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": false,
@@ -6995,7 +6945,7 @@
   },
   "refugiados-unidos": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": false,
@@ -7004,7 +6954,7 @@
   },
   "red-nacional-de-organismos-civiles-de-derechos-humanos": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": true,
@@ -7013,7 +6963,7 @@
   },
   "red-sea-executive-search": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 1,
    "pagina_cambio": false,
@@ -7028,16 +6978,16 @@
   },
   "ret-international": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
-   "pagina_cambio": false,
+   "pagina_cambio": true,
    "nuevas": [],
    "lista": []
   },
   "rif-refugee-investment-facility": {
    "estado": "omitida",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "Red social o grupo (no se rastrea; revisar manualmente)",
    "activas": 0,
    "pagina_cambio": false,
@@ -7046,7 +6996,7 @@
   },
   "restless-development": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": true,
@@ -7055,51 +7005,25 @@
   },
   "remote-jobs-opportunities": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
-   "activas": 6,
+   "activas": 3,
    "pagina_cambio": true,
    "nuevas": [
     {
-     "t": "GLOBSEC Is Hiring a Project Coordinator – Flexible Remote Opportunity in Europe Paying €1,900–€2,300 Monthly",
-     "u": "https://remotejobsopportunities.com/globsec",
+     "t": "ACLED Is Hiring a Middle East Regional Expert – Fully Remote Opportunity | Earn $50,000–$60,000 Annually",
+     "u": "https://remotejobsopportunities.com/east-3",
      "l": "Remoto",
-     "f": "2026-11-12",
-     "c": [
-      "remote",
-      "coordinator"
-     ]
-    },
-    {
-     "t": "Root to Rise Is Hiring a Senior Technical Advisor – New Product Introduction | Remote-Friendly Role Paying $120,000–$135,000 Annually",
-     "u": "https://remotejobsopportunities.com/tech-27",
-     "l": "Remoto",
-     "f": "2026-11-12",
+     "f": "2026-11-13",
      "c": [
       "remote"
      ]
     },
     {
-     "t": "Original Strategies Hiring Communications Associate |Apply Now",
-     "u": "https://remotejobsopportunities.com/original",
+     "t": "ALLIED Is Hiring a Remote Communications Officer – Global Opportunity for Global Majority Applicants",
+     "u": "https://remotejobsopportunities.com/allied",
      "l": "Remoto",
-     "f": "2026-11-12",
-     "c": []
-    },
-    {
-     "t": "Global Rights Compliance Hiring Project Director – Remote Opportunity with Travel to Cambodia | Apply by 24 November 2026",
-     "u": "https://remotejobsopportunities.com/compliance-4",
-     "l": "Remoto",
-     "f": "2026-11-11",
-     "c": [
-      "remote"
-     ]
-    },
-    {
-     "t": "Greenpeace MENA Hiring: Creative Lead – Remote Opportunity in the Middle East and North Africa | Apply by 23 November 2026",
-     "u": "https://remotejobsopportunities.com/greenpeace-5",
-     "l": "Remoto",
-     "f": "2026-11-11",
+     "f": "2026-11-13",
      "c": [
       "remote"
      ]
@@ -7112,35 +7036,20 @@
      "l": "Remoto"
     },
     {
-     "t": "Global Rights Compliance Hiring Project Director – Remote Opportunity with Travel to Cambodia | Apply by 24 November 2026",
-     "u": "https://remotejobsopportunities.com/compliance-4",
+     "t": "ACLED Is Hiring a Middle East Regional Expert – Fully Remote Opportunity | Earn $50,000–$60,000 Annually",
+     "u": "https://remotejobsopportunities.com/east-3",
      "l": "Remoto"
     },
     {
-     "t": "Greenpeace MENA Hiring: Creative Lead – Remote Opportunity in the Middle East and North Africa | Apply by 23 November 2026",
-     "u": "https://remotejobsopportunities.com/greenpeace-5",
-     "l": "Remoto"
-    },
-    {
-     "t": "GLOBSEC Is Hiring a Project Coordinator – Flexible Remote Opportunity in Europe Paying €1,900–€2,300 Monthly",
-     "u": "https://remotejobsopportunities.com/globsec",
-     "l": "Remoto"
-    },
-    {
-     "t": "Root to Rise Is Hiring a Senior Technical Advisor – New Product Introduction | Remote-Friendly Role Paying $120,000–$135,000 Annually",
-     "u": "https://remotejobsopportunities.com/tech-27",
-     "l": "Remoto"
-    },
-    {
-     "t": "Original Strategies Hiring Communications Associate |Apply Now",
-     "u": "https://remotejobsopportunities.com/original",
+     "t": "ALLIED Is Hiring a Remote Communications Officer – Global Opportunity for Global Majority Applicants",
+     "u": "https://remotejobsopportunities.com/allied",
      "l": "Remoto"
     }
    ]
   },
   "rights-and-resources-initiative": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": true,
@@ -7149,7 +7058,7 @@
   },
   "palladium": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": false,
@@ -7158,7 +7067,7 @@
   },
   "ruta-n-medellin": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 9,
    "pagina_cambio": false,
@@ -7213,7 +7122,7 @@
   },
   "reliefweb": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": false,
@@ -7222,7 +7131,7 @@
   },
   "rti-international": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": false,
@@ -7231,7 +7140,7 @@
   },
   "save-the-children-colombia": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": true,
@@ -7240,7 +7149,7 @@
   },
   "save-the-children-international": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": true,
@@ -7249,7 +7158,7 @@
   },
   "sdg-impact-finance-initiative-sifi": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": false,
@@ -7258,7 +7167,7 @@
   },
   "santiago-network": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": false,
@@ -7267,7 +7176,7 @@
   },
   "sarape-social": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": false,
@@ -7275,9 +7184,9 @@
    "lista": []
   },
   "sei-stockholm-environment-institute": {
-   "estado": "ok",
-   "revision": "2026-11-12 13:58",
-   "nota": "",
+   "estado": "error",
+   "revision": "2026-11-13 13:33",
+   "nota": "HTTPError: 403 Client Error: Forbidden for url: https://www.sei.org/people/jobs/",
    "activas": 0,
    "pagina_cambio": false,
    "nuevas": [],
@@ -7285,7 +7194,7 @@
   },
   "servicio-jesuita-a-refugiados": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 1,
    "pagina_cambio": false,
@@ -7300,7 +7209,7 @@
   },
   "solidaridad-network": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": false,
@@ -7309,7 +7218,7 @@
   },
   "southsouthnorth-ssn": {
    "estado": "error",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "HTTPError: 403 Client Error: Forbidden for url: https://southsouthnorth.org/careerspage/",
    "activas": 0,
    "pagina_cambio": false,
@@ -7318,7 +7227,7 @@
   },
   "roots-of-impact": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": false,
@@ -7327,7 +7236,7 @@
   },
   "solidarites-international": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": true,
@@ -7336,7 +7245,7 @@
   },
   "solidaridad-latam": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 3,
    "pagina_cambio": false,
@@ -7361,19 +7270,11 @@
   },
   "sri": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 3,
    "pagina_cambio": true,
-   "nuevas": [
-    {
-     "t": "Evidence and Learning Manager",
-     "u": "https://www.sri-executive.com/opportunities/evidence-and-learning-manager",
-     "l": "Remoto",
-     "f": "2026-11-05",
-     "c": []
-    }
-   ],
+   "nuevas": [],
    "lista": [
     {
      "t": "Chief People & Culture Officer",
@@ -7394,7 +7295,7 @@
   },
   "stir-education": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": false,
@@ -7403,7 +7304,7 @@
   },
   "sparkassenstiftung-alemana-latinoamerica-y-el-caribe": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": false,
@@ -7412,7 +7313,7 @@
   },
   "swiss-church-aid-heks-eper": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": false,
@@ -7421,7 +7322,7 @@
   },
   "still-i-rise": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": false,
@@ -7430,7 +7331,7 @@
   },
   "swisscontact": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": true,
@@ -7439,7 +7340,7 @@
   },
   "strategia-netherlands": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": true,
@@ -7448,7 +7349,7 @@
   },
   "terrasos": {
    "estado": "error",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "ConnectionError: HTTPSConnectionPool(host='en.terrasos.co', port=443): Max retries exceeded with url: /trabaja-con-nosotros (Caused by NameResolutionError(\"HTTPSConnection(host=",
    "activas": 0,
    "pagina_cambio": false,
@@ -7457,7 +7358,7 @@
   },
   "talento-verde": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 7,
    "pagina_cambio": false,
@@ -7502,7 +7403,7 @@
   },
   "teach-for-all": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": false,
@@ -7511,7 +7412,7 @@
   },
   "swefor-movimiento-sueco-por-la-reconciliacion": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 1,
    "pagina_cambio": false,
@@ -7526,7 +7427,7 @@
   },
   "terre-des-hommes-foundation": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": true,
@@ -7535,7 +7436,7 @@
   },
   "tetra-tech": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": false,
@@ -7544,7 +7445,7 @@
   },
   "the-kvinna-till-kvinna-foundation": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": true,
@@ -7553,7 +7454,7 @@
   },
   "the-halo-trust": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": false,
@@ -7562,30 +7463,82 @@
   },
   "the-impact-job": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
-   "activas": 1,
+   "activas": 5,
    "pagina_cambio": true,
    "nuevas": [
     {
-     "t": "Director of Sales",
-     "u": "https://www.theimpactjob.com/jobs/802755051-director-of-sales",
+     "t": "Practice Greenhealth Sales Coordinator",
+     "u": "https://www.theimpactjob.com/jobs/805801548-practice-greenhealth-sales-coordinator",
      "l": "Remoto",
-     "f": "2026-11-11",
+     "f": "2026-11-13",
+     "c": [
+      "coordinator"
+     ]
+    },
+    {
+     "t": "Head of Growth Marketing",
+     "u": "https://www.theimpactjob.com/jobs/805107029-head-of-growth-marketing",
+     "l": "Remoto",
+     "f": "2026-11-13",
+     "c": []
+    },
+    {
+     "t": "M&E Associate - Rapid Experimentation (Remote)",
+     "u": "https://www.theimpactjob.com/jobs/804700313-m-e-associate-rapid-experimentation-remote",
+     "l": "Remoto",
+     "f": "2026-11-13",
+     "c": [
+      "remote"
+     ]
+    },
+    {
+     "t": "Senior Software Engineer, Android (Contract)",
+     "u": "https://www.theimpactjob.com/jobs/804438083-senior-software-engineer-android-contract",
+     "l": "Remoto",
+     "f": "2026-11-13",
+     "c": []
+    },
+    {
+     "t": "Operations Lead, Legal & Compliance",
+     "u": "https://www.theimpactjob.com/jobs/804313692-operations-lead-legal-compliance",
+     "l": "Remoto",
+     "f": "2026-11-13",
      "c": []
     }
    ],
    "lista": [
     {
-     "t": "Director of Sales",
-     "u": "https://www.theimpactjob.com/jobs/802755051-director-of-sales",
+     "t": "Practice Greenhealth Sales Coordinator",
+     "u": "https://www.theimpactjob.com/jobs/805801548-practice-greenhealth-sales-coordinator",
+     "l": "Remoto"
+    },
+    {
+     "t": "Head of Growth Marketing",
+     "u": "https://www.theimpactjob.com/jobs/805107029-head-of-growth-marketing",
+     "l": "Remoto"
+    },
+    {
+     "t": "M&E Associate - Rapid Experimentation (Remote)",
+     "u": "https://www.theimpactjob.com/jobs/804700313-m-e-associate-rapid-experimentation-remote",
+     "l": "Remoto"
+    },
+    {
+     "t": "Senior Software Engineer, Android (Contract)",
+     "u": "https://www.theimpactjob.com/jobs/804438083-senior-software-engineer-android-contract",
+     "l": "Remoto"
+    },
+    {
+     "t": "Operations Lead, Legal & Compliance",
+     "u": "https://www.theimpactjob.com/jobs/804313692-operations-lead-legal-compliance",
      "l": "Remoto"
     }
    ]
   },
   "the-lego-foundation": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": true,
@@ -7594,7 +7547,7 @@
   },
   "trabajo-humanitario": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 8,
    "pagina_cambio": true,
@@ -7663,11 +7616,65 @@
   },
   "trabajar-por-el-mundo": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
-   "activas": 8,
+   "activas": 10,
    "pagina_cambio": true,
    "nuevas": [
+    {
+     "t": "Especialista en doblaje (freelance) Remoto · hace 3 horas en RemotoJob",
+     "u": "https://remotojob.com/oferta/especialista-en-doblaje-freelance-elevenlabs",
+     "l": "Remoto",
+     "f": "2026-11-13",
+     "c": [
+      "remoto"
+     ]
+    },
+    {
+     "t": "Sales Operations Manager Remoto · hace 5 horas en RemotoJob",
+     "u": "https://remotojob.com/oferta/sales-operations-manager-docker",
+     "l": "Remoto",
+     "f": "2026-11-13",
+     "c": [
+      "remoto"
+     ]
+    },
+    {
+     "t": "Customer Success Manager (EMEA) Remoto · hace 7 horas en RemotoJob",
+     "u": "https://remotojob.com/oferta/customer-success-manager-emea-n8n",
+     "l": "Remoto",
+     "f": "2026-11-13",
+     "c": [
+      "remoto"
+     ]
+    },
+    {
+     "t": "Senior Technical Account Manager Remoto · hace 9 horas en RemotoJob",
+     "u": "https://remotojob.com/oferta/senior-technical-account-manager-zapier",
+     "l": "Remoto",
+     "f": "2026-11-13",
+     "c": [
+      "remoto"
+     ]
+    },
+    {
+     "t": "Accounts Payable Analyst Remoto · hace 11 horas en RemotoJob",
+     "u": "https://remotojob.com/oferta/accounts-payable-analyst-oyster",
+     "l": "Remoto",
+     "f": "2026-11-13",
+     "c": [
+      "remoto"
+     ]
+    },
+    {
+     "t": "Software Engineer (Developer Tools) Remoto · hace 21 horas en RemotoJob",
+     "u": "https://remotojob.com/oferta/software-engineer-developer-tools-resend",
+     "l": "Remoto",
+     "f": "2026-11-13",
+     "c": [
+      "remoto"
+     ]
+    },
     {
      "t": "Mejores webcams para trabajar desde casa: comparativa técnica",
      "u": "https://trabajarporelmundo.org/mejores-webcams-trabajar-desde-casa",
@@ -7695,42 +7702,6 @@
      "l": "Remoto",
      "f": "2026-11-12",
      "c": []
-    },
-    {
-     "t": "Billing Operations Analyst Remoto · hace 7 horas en RemotoJob",
-     "u": "https://remotojob.com/oferta/billing-operations-analyst-twilio",
-     "l": "Remoto",
-     "f": "2026-11-12",
-     "c": [
-      "remoto"
-     ]
-    },
-    {
-     "t": "Senior Java Engineer (Sistemas distribuidos, Elasticsearch) Remoto · hace 9 horas en RemotoJob",
-     "u": "https://remotojob.com/oferta/senior-java-engineer-sistemas-distribuidos-elasticsearch-elastic",
-     "l": "Remoto",
-     "f": "2026-11-12",
-     "c": [
-      "remoto"
-     ]
-    },
-    {
-     "t": "Analytics Engineer II (Revenue Analytics) Remoto · hace 19 horas en RemotoJob",
-     "u": "https://remotojob.com/oferta/analytics-engineer-ii-revenue-analytics-affirm",
-     "l": "Remoto",
-     "f": "2026-11-12",
-     "c": [
-      "remoto"
-     ]
-    },
-    {
-     "t": "Business Development Representative Remoto · hace 23 horas en RemotoJob",
-     "u": "https://remotojob.com/oferta/business-development-representative-canonical",
-     "l": "Remoto",
-     "f": "2026-11-12",
-     "c": [
-      "remoto"
-     ]
     }
    ],
    "lista": [
@@ -7755,30 +7726,40 @@
      "l": "Remoto"
     },
     {
-     "t": "Billing Operations Analyst Remoto · hace 7 horas en RemotoJob",
-     "u": "https://remotojob.com/oferta/billing-operations-analyst-twilio",
+     "t": "Especialista en doblaje (freelance) Remoto · hace 3 horas en RemotoJob",
+     "u": "https://remotojob.com/oferta/especialista-en-doblaje-freelance-elevenlabs",
      "l": "Remoto"
     },
     {
-     "t": "Senior Java Engineer (Sistemas distribuidos, Elasticsearch) Remoto · hace 9 horas en RemotoJob",
-     "u": "https://remotojob.com/oferta/senior-java-engineer-sistemas-distribuidos-elasticsearch-elastic",
+     "t": "Sales Operations Manager Remoto · hace 5 horas en RemotoJob",
+     "u": "https://remotojob.com/oferta/sales-operations-manager-docker",
      "l": "Remoto"
     },
     {
-     "t": "Analytics Engineer II (Revenue Analytics) Remoto · hace 19 horas en RemotoJob",
-     "u": "https://remotojob.com/oferta/analytics-engineer-ii-revenue-analytics-affirm",
+     "t": "Customer Success Manager (EMEA) Remoto · hace 7 horas en RemotoJob",
+     "u": "https://remotojob.com/oferta/customer-success-manager-emea-n8n",
      "l": "Remoto"
     },
     {
-     "t": "Business Development Representative Remoto · hace 23 horas en RemotoJob",
-     "u": "https://remotojob.com/oferta/business-development-representative-canonical",
+     "t": "Senior Technical Account Manager Remoto · hace 9 horas en RemotoJob",
+     "u": "https://remotojob.com/oferta/senior-technical-account-manager-zapier",
+     "l": "Remoto"
+    },
+    {
+     "t": "Accounts Payable Analyst Remoto · hace 11 horas en RemotoJob",
+     "u": "https://remotojob.com/oferta/accounts-payable-analyst-oyster",
+     "l": "Remoto"
+    },
+    {
+     "t": "Software Engineer (Developer Tools) Remoto · hace 21 horas en RemotoJob",
+     "u": "https://remotojob.com/oferta/software-engineer-developer-tools-resend",
      "l": "Remoto"
     }
    ]
   },
   "tiempo-de-juego": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 2,
    "pagina_cambio": false,
@@ -7798,7 +7779,7 @@
   },
   "transforma": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": true,
@@ -7807,7 +7788,7 @@
   },
   "transparency-international": {
    "estado": "error",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "HTTPError: 403 Client Error: Forbidden for url: https://www.transparency.org/whoweare/work",
    "activas": 0,
    "pagina_cambio": false,
@@ -7816,7 +7797,7 @@
   },
   "u-s-embassy-in-colombia": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": false,
@@ -7825,11 +7806,21 @@
   },
   "the-nature-conservancy": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
-   "activas": 11,
+   "activas": 12,
    "pagina_cambio": false,
    "nuevas": [
+    {
+     "t": "Donor Communications Program Manager, California",
+     "u": "https://nature.wd108.myworkdayjobs.com/ExternalCareers/job/Remoto---California/Donor-Communications-Program-Manager--California_JR104341",
+     "l": "Remoto - California",
+     "f": "2026-11-13",
+     "c": [
+      "remoto",
+      "program manager"
+     ]
+    },
     {
      "t": "Midwest Division Development Writer",
      "u": "https://nature.wd108.myworkdayjobs.com/ExternalCareers/job/Remoto---Illinois/Midwest-Division-Development-Writer_JR104256",
@@ -7871,42 +7862,6 @@
      "u": "https://nature.wd108.myworkdayjobs.com/ExternalCareers/job/Remoto---Maine/Forest-Stewardship-Manager_JR104249",
      "l": "Remoto - Maine",
      "f": "2026-11-06",
-     "c": [
-      "remoto"
-     ]
-    },
-    {
-     "t": "Long Cane Forest Recovery Technician",
-     "u": "https://nature.wd108.myworkdayjobs.com/ExternalCareers/job/GEO--Remoto---Carolina-del-Sur/Long-Cane-Forest-Recovery-Technician_JR104305",
-     "l": "GEO / Remoto - Carolina del Sur",
-     "f": "2026-11-05",
-     "c": [
-      "remoto"
-     ]
-    },
-    {
-     "t": "Andrew Pickens Forest Recovery Technician",
-     "u": "https://nature.wd108.myworkdayjobs.com/ExternalCareers/job/GEO--Remoto---Carolina-del-Sur/Andrew-Pickens-Forest-Recovery-Technician_JR104304-1",
-     "l": "GEO / Remoto - Carolina del Sur",
-     "f": "2026-11-05",
-     "c": [
-      "remoto"
-     ]
-    },
-    {
-     "t": "Andrew Pickens Forest Recovery Lead Technician",
-     "u": "https://nature.wd108.myworkdayjobs.com/ExternalCareers/job/Remoto---Carolina-del-Sur/Andrew-Pickens-Forest-Recovery-Lead-Technician_JR104301",
-     "l": "Remoto - Carolina del Sur",
-     "f": "2026-11-05",
-     "c": [
-      "remoto"
-     ]
-    },
-    {
-     "t": "Long Cane Forest Recovery Lead Technician",
-     "u": "https://nature.wd108.myworkdayjobs.com/ExternalCareers/job/GEO--Remoto---Carolina-del-Sur/Long-Cane-Forest-Recovery-Lead-Technician_JR104302",
-     "l": "GEO / Remoto - Carolina del Sur",
-     "f": "2026-11-05",
      "c": [
       "remoto"
      ]
@@ -7967,12 +7922,17 @@
      "t": "Senior Attorney",
      "u": "https://nature.wd108.myworkdayjobs.com/ExternalCareers/job/Remoto-EE-UU/Senior-Attorney_JR104215",
      "l": "Remoto, EE. UU."
+    },
+    {
+     "t": "Donor Communications Program Manager, California",
+     "u": "https://nature.wd108.myworkdayjobs.com/ExternalCareers/job/Remoto---California/Donor-Communications-Program-Manager--California_JR104341",
+     "l": "Remoto - California"
     }
    ]
   },
   "un-foundation": {
    "estado": "error",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "HTTPError: 403 Client Error: Forbidden for url: https://unfoundation.org/careers/",
    "activas": 0,
    "pagina_cambio": false,
@@ -7981,7 +7941,7 @@
   },
   "swissaid-colombia": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 2,
    "pagina_cambio": false,
@@ -8001,16 +7961,30 @@
   },
   "un-job-net": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
-   "activas": 0,
+   "activas": 1,
    "pagina_cambio": true,
-   "nuevas": [],
-   "lista": []
+   "nuevas": [
+    {
+     "t": "CFG · View position →",
+     "u": "https://www.unjobnet.org/jobs/detail/cfg-international-engagement-manager-90345892",
+     "l": "OLY · TELECOMMUTE",
+     "f": "2026-11-13",
+     "c": []
+    }
+   ],
+   "lista": [
+    {
+     "t": "CFG · View position →",
+     "u": "https://www.unjobnet.org/jobs/detail/cfg-international-engagement-manager-90345892",
+     "l": "OLY · TELECOMMUTE"
+    }
+   ]
   },
   "un-partner-portal": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": false,
@@ -8019,7 +7993,7 @@
   },
   "un-volunteers": {
    "estado": "bloqueada",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "robots.txt no permite rastrear esta página",
    "activas": 0,
    "pagina_cambio": false,
@@ -8028,7 +8002,7 @@
   },
   "transparencia-por-colombia": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": false,
@@ -8037,7 +8011,7 @@
   },
   "un-women": {
    "estado": "error",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "HTTPError: 403 Client Error: Forbidden for url: https://www.unwomen.org/en/jobs/unwomen",
    "activas": 0,
    "pagina_cambio": false,
@@ -8046,7 +8020,7 @@
   },
   "trickle-up": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": true,
@@ -8055,7 +8029,7 @@
   },
   "un-refugee-agency": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": false,
@@ -8064,7 +8038,7 @@
   },
   "unesco": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": true,
@@ -8073,7 +8047,7 @@
   },
   "unfpa": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 6,
    "pagina_cambio": true,
@@ -8100,20 +8074,20 @@
      "l": "Colombia"
     },
     {
-     "t": "Profesional técnico/a para apoyo técnico y operativo del convenio de cuidado",
-     "u": "https://colombia.unfpa.org/es/vacancies/profesional-t%C3%A9cnicoa-para-apoyo-t%C3%A9cnico-y-operativo-del-convenio-de-cuidado",
+     "t": "Asociado/a para la coordinación de la implementación territorial de las estrategias del Programa Nacional de Cuidado",
+     "u": "https://colombia.unfpa.org/es/vacancies/asociadoa-para-la-coordinaci%C3%B3n-de-la-implementaci%C3%B3n-territorial-de-las-estrategias-del",
      "l": "Colombia"
     },
     {
-     "t": "Asociado/a para la coordinación de la implementación territorial de las estrategias del Programa Nacional de Cuidado",
-     "u": "https://colombia.unfpa.org/es/vacancies/asociadoa-para-la-coordinaci%C3%B3n-de-la-implementaci%C3%B3n-territorial-de-las-estrategias-del",
+     "t": "Asociado/a técnico/a para la Estrategia de Sociedades del Cuidado",
+     "u": "https://colombia.unfpa.org/es/vacancies/asociadoa-t%C3%A9cnicoa-para-la-estrategia-de-sociedades-del-cuidado",
      "l": "Colombia"
     }
    ]
   },
   "unesco-international-institute-for-educational-planning": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": true,
@@ -8122,7 +8096,7 @@
   },
   "united-nations-department-of-safety-and-security-undss-in-colombia": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": true,
@@ -8130,9 +8104,9 @@
    "lista": []
   },
   "union-europea-en-colombia": {
-   "estado": "error",
-   "revision": "2026-11-12 13:58",
-   "nota": "HTTPError: 403 Client Error: Forbidden for url: https://www.eeas.europa.eu/eeas/vacancies_en",
+   "estado": "ok",
+   "revision": "2026-11-13 13:33",
+   "nota": "",
    "activas": 0,
    "pagina_cambio": true,
    "nuevas": [],
@@ -8140,11 +8114,47 @@
   },
   "unicef-colombia": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
-   "activas": 4,
+   "activas": 7,
    "pagina_cambio": true,
    "nuevas": [
+    {
+     "t": "International Health Consultant (remote with travel for 3.5 months)",
+     "u": "https://jobs.unicef.org/jobs/international-health-consultant-remote-with-travel-for-3-5-months-timor-leste",
+     "l": "Remoto",
+     "f": "2026-11-13",
+     "c": [
+      "remote"
+     ]
+    },
+    {
+     "t": "A Million Balls Initiative: Project Development Consultant, Global Programme Division, Director’s office, NYHQ, Remote with travel, 11 months, # 596974",
+     "u": "https://jobs.unicef.org/jobs/a-million-balls-initiative-project-development-consultant-global-programme-division-director-s-office-nyhq-remote-with-travel-11-months-596974-united-states-new-york",
+     "l": "Remoto",
+     "f": "2026-11-13",
+     "c": [
+      "remote"
+     ]
+    },
+    {
+     "t": "International consultant on capacity building of preschool professionals in model inclusive preschools, Tashkent, Uzbekistan, Remote, 13 months",
+     "u": "https://jobs.unicef.org/jobs/international-consultant-on-capacity-building-of-preschool-professionals-in-model-inclusive-preschools-tashkent-uzbekistan-remote-13-months-uzbekistan",
+     "l": "Remoto",
+     "f": "2026-11-13",
+     "c": [
+      "remote"
+     ]
+    },
+    {
+     "t": "Digital Communications and Content Production Consultant, UNICEF Global Programme Division (GPD) – Education, CoE Nariobi, Kenya, 13 months (remote) #596968",
+     "u": "https://jobs.unicef.org/jobs/digital-communications-and-content-production-consultant-unicef-global-programme-division-gpd-education-coe-nariobi-kenya-13-months-remote-596968-kenya",
+     "l": "Remoto",
+     "f": "2026-11-13",
+     "c": [
+      "remote"
+     ]
+    },
     {
      "t": "International Consultant to Support the development and Delivery of the Professional Capacity Building Programme, Tashkent, Uzbekistan, 11.7 months, Remote with travel",
      "u": "https://jobs.unicef.org/jobs/international-consultant-to-support-the-development-and-delivery-of-the-professional-capacity-building-programme-tashkent-uzbekistan-11-7-months-remote-with-travel-uzbekistan",
@@ -8166,15 +8176,6 @@
     {
      "t": "MHPSS Intervention Development and Evaluation Consultant, Global Practice for Child Protection and Migration, CPHA, Nairobi, Kenya, Remote with travel, 11 months, # 596960",
      "u": "https://jobs.unicef.org/jobs/mhpss-intervention-development-and-evaluation-consultant-global-practice-for-child-protection-and-migration-cpha-nairobi-kenya-remote-with-travel-11-months-596960-kenya",
-     "l": "Remoto",
-     "f": "2026-11-12",
-     "c": [
-      "remote"
-     ]
-    },
-    {
-     "t": "National consultant-synthesize evidence on food system related to complementary foods,develop National First Foods Action Plan.4 Months, Health/Nutrition Section,Freetown,remote with travel 596955",
-     "u": "https://jobs.unicef.org/jobs/national-consultant-synthesize-evidence-on-food-system-related-to-complementary-foods-develop-national-first-foods-action-plan-4-months-health-nutrition-section-freetown-remote-with-travel-59",
      "l": "Remoto",
      "f": "2026-11-12",
      "c": [
@@ -8199,15 +8200,30 @@
      "l": "Remoto"
     },
     {
-     "t": "National consultant-synthesize evidence on food system related to complementary foods,develop National First Foods Action Plan.4 Months, Health/Nutrition Section,Freetown,remote with travel 596955",
-     "u": "https://jobs.unicef.org/jobs/national-consultant-synthesize-evidence-on-food-system-related-to-complementary-foods-develop-national-first-foods-action-plan-4-months-health-nutrition-section-freetown-remote-with-travel-59",
+     "t": "International Health Consultant (remote with travel for 3.5 months)",
+     "u": "https://jobs.unicef.org/jobs/international-health-consultant-remote-with-travel-for-3-5-months-timor-leste",
+     "l": "Remoto"
+    },
+    {
+     "t": "A Million Balls Initiative: Project Development Consultant, Global Programme Division, Director’s office, NYHQ, Remote with travel, 11 months, # 596974",
+     "u": "https://jobs.unicef.org/jobs/a-million-balls-initiative-project-development-consultant-global-programme-division-director-s-office-nyhq-remote-with-travel-11-months-596974-united-states-new-york",
+     "l": "Remoto"
+    },
+    {
+     "t": "International consultant on capacity building of preschool professionals in model inclusive preschools, Tashkent, Uzbekistan, Remote, 13 months",
+     "u": "https://jobs.unicef.org/jobs/international-consultant-on-capacity-building-of-preschool-professionals-in-model-inclusive-preschools-tashkent-uzbekistan-remote-13-months-uzbekistan",
+     "l": "Remoto"
+    },
+    {
+     "t": "Digital Communications and Content Production Consultant, UNICEF Global Programme Division (GPD) – Education, CoE Nariobi, Kenya, 13 months (remote) #596968",
+     "u": "https://jobs.unicef.org/jobs/digital-communications-and-content-production-consultant-unicef-global-programme-division-gpd-education-coe-nariobi-kenya-13-months-remote-596968-kenya",
      "l": "Remoto"
     }
    ]
   },
   "united-nations-verification-mission": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": false,
@@ -8216,7 +8232,7 @@
   },
   "unesco-mahatma-gandhi-institute-of-education-for-peace-and-sustainable-development-mgiep": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": true,
@@ -8225,7 +8241,7 @@
   },
   "united-states-institute-of-peace": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": false,
@@ -8234,7 +8250,7 @@
   },
   "united-way-colombia": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 2,
    "pagina_cambio": false,
@@ -8254,7 +8270,7 @@
   },
   "universidad-ean": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 2,
    "pagina_cambio": false,
@@ -8274,7 +8290,7 @@
   },
   "universidad-icesi": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": true,
@@ -8283,7 +8299,7 @@
   },
   "unjobs": {
    "estado": "bloqueada",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "robots.txt no permite rastrear esta página",
    "activas": 0,
    "pagina_cambio": false,
@@ -8292,7 +8308,7 @@
   },
   "universidad-santo-tomas": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 156,
    "pagina_cambio": false,
@@ -8502,7 +8518,7 @@
   },
   "unv": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": true,
@@ -8511,7 +8527,7 @@
   },
   "unu-wider": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": true,
@@ -8520,7 +8536,7 @@
   },
   "united-nations-international-computing-centre-unicc": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": true,
@@ -8529,7 +8545,7 @@
   },
   "value-for-women": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": false,
@@ -8538,7 +8554,7 @@
   },
   "van-leer-foundation": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": true,
@@ -8547,7 +8563,7 @@
   },
   "war-child": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 1,
    "pagina_cambio": false,
@@ -8562,7 +8578,7 @@
   },
   "wildlife-conservation-network": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 2,
    "pagina_cambio": false,
@@ -8582,7 +8598,7 @@
   },
   "we-effect": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": false,
@@ -8591,7 +8607,7 @@
   },
   "wildlife-conservation-society": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": false,
@@ -8600,7 +8616,7 @@
   },
   "wildlife-works": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": false,
@@ -8609,7 +8625,7 @@
   },
   "wings": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": false,
@@ -8618,7 +8634,7 @@
   },
   "witness-for-peace-solidarity-collective": {
    "estado": "omitida",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "Sin página de vacantes en el radar",
    "activas": 0,
    "pagina_cambio": false,
@@ -8627,7 +8643,7 @@
   },
   "wildlife-conservation-society-colombia": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 3,
    "pagina_cambio": true,
@@ -8660,7 +8676,7 @@
   },
   "women-s-link-worldwide": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": false,
@@ -8669,7 +8685,7 @@
   },
   "wola-oficina-en-washington-para-asuntos-latinoamericanos": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": false,
@@ -8678,7 +8694,7 @@
   },
   "work-for-good": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": true,
@@ -8687,7 +8703,7 @@
   },
   "world-bank": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": false,
@@ -8696,7 +8712,7 @@
   },
   "work-on-climate": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": true,
@@ -8705,7 +8721,7 @@
   },
   "world-bicycle-relief": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": true,
@@ -8714,7 +8730,7 @@
   },
   "world-resources-institute-wri": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": false,
@@ -8723,7 +8739,7 @@
   },
   "world-food-programme": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "La página no es HTML (application/json)",
    "activas": 0,
    "pagina_cambio": false,
@@ -8731,9 +8747,9 @@
    "lista": []
   },
   "wwf-colombia": {
-   "estado": "ok",
-   "revision": "2026-11-12 13:58",
-   "nota": "",
+   "estado": "error",
+   "revision": "2026-11-13 13:33",
+   "nota": "HTTPError: 403 Client Error: Forbidden for url: https://www.wwf.org.co/about_us/empleos_y_becas/",
    "activas": 6,
    "pagina_cambio": false,
    "nuevas": [],
@@ -8772,7 +8788,7 @@
   },
   "zoa": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": true,
@@ -8781,16 +8797,32 @@
   },
   "vacancy-bridge": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
-   "activas": 0,
+   "activas": 1,
    "pagina_cambio": true,
-   "nuevas": [],
-   "lista": []
+   "nuevas": [
+    {
+     "t": "Freelance and consulting opportunities 2026–2027: International contracts, remote assignments and expert roles Read more",
+     "u": "https://vacancybridge.com/jobs/freelance-and-consulting",
+     "l": "Remoto",
+     "f": "2026-11-13",
+     "c": [
+      "remote"
+     ]
+    }
+   ],
+   "lista": [
+    {
+     "t": "Freelance and consulting opportunities 2026–2027: International contracts, remote assignments and expert roles Read more",
+     "u": "https://vacancybridge.com/jobs/freelance-and-consulting",
+     "l": "Remoto"
+    }
+   ]
   },
   "velezreyes": {
    "estado": "error",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "HTTPError: 502 Server Error: Bad Gateway for url: https://velezreyesmas.com/trabaja-con-nosotros/",
    "activas": 0,
    "pagina_cambio": false,
@@ -8799,7 +8831,7 @@
   },
   "world-vision": {
    "estado": "ok",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "",
    "activas": 0,
    "pagina_cambio": false,
@@ -8808,7 +8840,7 @@
   },
   "un-career-net": {
    "estado": "error",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "ConnectionError: HTTPSConnectionPool(host='uncareer.net', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='uncareer.net', port=4",
    "activas": 0,
    "pagina_cambio": false,
@@ -8817,7 +8849,7 @@
   },
   "mckinsey": {
    "estado": "error",
-   "revision": "2026-11-12 13:58",
+   "revision": "2026-11-13 13:33",
    "nota": "ReadTimeout: HTTPSConnectionPool(host='www.mckinsey.com', port=443): Read timed out. (read timeout=25)",
    "activas": 0,
    "pagina_cambio": false,
